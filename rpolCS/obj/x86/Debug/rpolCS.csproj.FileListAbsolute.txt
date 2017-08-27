@@ -5,5 +5,10 @@ c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\bin\Debug\rpo
 c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\bin\Debug\rpolCS.pdb
 c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\obj\x86\Debug\rpolCS.exe
 c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\obj\x86\Debug\rpolCS.pdb
+C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\bin\Debug\rpolCS.exe
+C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\bin\Debug\rpolCS.pdb
+C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.Form1.resources
+C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.Properties.Resources.resources
+C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.csproj.GenerateResource.Cache
 C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.exe
 C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.pdb
