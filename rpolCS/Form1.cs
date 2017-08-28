@@ -81,7 +81,7 @@ namespace rpolCS
 
         private void savePlainText()
         {
-            FileStream ptfs = new FileStream(plainTextFile, FileMode.OpenOrCreate, FileAccess.Write);
+            FileStream ptfs = new FileStream(@workingFolder + @"\" + plainTextFile, FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter ptwriter = new StreamWriter(ptfs);
             ptwriter.WriteLine(charName);
             ptwriter.WriteLine(discName);
@@ -145,6 +145,7 @@ namespace rpolCS
             ptwriter.WriteLine(shieldName);
             ptwriter.WriteLine(deflectBonusNum);
             ptwriter.WriteLine(phyArmNum);
+            ptwriter.WriteLine(mysDefNum);
             ptwriter.WriteLine(uncBaseNum);
             ptwriter.WriteLine(uncAdjNum);
             ptwriter.WriteLine(uncCurNum);
@@ -162,7 +163,7 @@ namespace rpolCS
         {
             try
             {
-                FileStream ptfs = new FileStream(plainTextFile, FileMode.Open, FileAccess.Read);
+                FileStream ptfs = new FileStream(@workingFolder + @"\" + plainTextFile, FileMode.Open, FileAccess.Read);
                 using (StreamReader ptReader = new StreamReader(ptfs))
                 {
                     nameBox.Text = charName = ptReader.ReadLine();
@@ -223,20 +224,21 @@ namespace rpolCS
                     recovTestBox.Text = recovTestNum = ptReader.ReadLine();
                     recovStepBox.Text = recovStepNum = ptReader.ReadLine();
                     recovADbox.Text = recovActDieNum = ptReader.ReadLine();
-                    armorName = ptReader.ReadLine();
-                    shieldName = ptReader.ReadLine();
-                    deflectBonusNum = ptReader.ReadLine();
-                    phyArmNum = ptReader.ReadLine();
+                    armorBox.Text = armorName = ptReader.ReadLine();
+                    shieldBox.Text = shieldName = ptReader.ReadLine();
+                    deflectBonusBox.Text = deflectBonusNum = ptReader.ReadLine();
+                    phyArmorBox.Text = phyArmNum = ptReader.ReadLine();
+                    mysArmorBox.Text = mysDefNum = ptReader.ReadLine();
                     unconBaseBox.Text = uncBaseNum = ptReader.ReadLine();
                     unconAdjBox.Text = uncAdjNum = ptReader.ReadLine();
                     unconCurBox.Text = uncCurNum = ptReader.ReadLine();
-                    dmgCurNum = ptReader.ReadLine();
+                    curDmgBox.Text = dmgCurNum = ptReader.ReadLine();
                     deathBaseBox.Text = deathBaseNum = ptReader.ReadLine();
                     deathAdjBox.Text = deathAdjNum = ptReader.ReadLine();
                     deathCurBox.Text = deathCurNum = ptReader.ReadLine();
-                    woundCurNum = ptReader.ReadLine();
-                    woundThreshNum = ptReader.ReadLine();
-                    woundPenNum = ptReader.ReadLine();
+                    woundCurBox.Text = woundCurNum = ptReader.ReadLine();
+                    woundThreshBox.Text = woundThreshNum = ptReader.ReadLine();
+                    woundPenBox.Text = woundPenNum = ptReader.ReadLine();
                     ptReader.Close();
                 }
             }
@@ -514,22 +516,22 @@ namespace rpolCS
 
         private void movBox_TextChanged(object sender, EventArgs e)
         {
-            movBox.Text = movNum;
+            movNum = movBox.Text;
         }
 
         private void carryBox_TextChanged(object sender, EventArgs e)
         {
-            carryBox.Text = carryNum;
+            carryNum = carryBox.Text;
         }
 
         private void KarmaCurBox_TextChanged(object sender, EventArgs e)
         {
-            karmaCurBox.Text = karmaCurNum;
+            karmaCurNum = karmaCurBox.Text;
         }
 
         private void karmaMaxBox_TextChanged(object sender, EventArgs e)
         {
-            karmaMaxBox.Text = karmaMaxNum;
+            karmaMaxNum = karmaMaxBox.Text;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -590,6 +592,49 @@ namespace rpolCS
         }
 #endregion
 
-        
+        private void armorBox_TextChanged(object sender, EventArgs e)
+        {
+            armorName = armorBox.Text;
+        }
+
+        private void shieldBox_TextChanged(object sender, EventArgs e)
+        {
+            shieldName = shieldBox.Text;
+        }
+
+        private void phyArmorBox_TextChanged(object sender, EventArgs e)
+        {
+            phyArmNum = phyArmorBox.Text;
+        }
+
+        private void mysArmorBox_TextChanged(object sender, EventArgs e)
+        {
+            mysDefNum = mysArmorBox.Text;
+        }
+
+        private void curDmgBox_TextChanged(object sender, EventArgs e)
+        {
+            dmgCurNum = curDmgBox.Text;
+        }
+
+        private void woundCurBox_TextChanged(object sender, EventArgs e)
+        {
+            woundCurNum = woundCurBox.Text;
+        }
+
+        private void woundThreshBox_TextChanged(object sender, EventArgs e)
+        {
+            woundThreshNum = woundThreshBox.Text;
+        }
+
+        private void woundPenBox_TextChanged(object sender, EventArgs e)
+        {
+            woundPenNum = woundPenBox.Text;
+        }
+
+        private void deflectBonusBox_TextChanged(object sender, EventArgs e)
+        {
+            deflectBonusNum = deflectBonusBox.Text;
+        }
     }
 }

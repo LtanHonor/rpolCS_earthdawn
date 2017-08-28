@@ -154,13 +154,26 @@
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.woundThreshBox = new System.Windows.Forms.TextBox();
+            this.woundCurBox = new System.Windows.Forms.TextBox();
+            this.woundPenBox = new System.Windows.Forms.TextBox();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.armorBox = new System.Windows.Forms.TextBox();
+            this.shieldBox = new System.Windows.Forms.TextBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.phyArmorBox = new System.Windows.Forms.TextBox();
+            this.label64 = new System.Windows.Forms.Label();
+            this.mysArmorBox = new System.Windows.Forms.TextBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.curDmgBox = new System.Windows.Forms.TextBox();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.deflectBonusBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -1081,7 +1094,7 @@
             this.recovStepBox.Location = new System.Drawing.Point(127, 762);
             this.recovStepBox.Name = "recovStepBox";
             this.recovStepBox.Size = new System.Drawing.Size(52, 20);
-            this.recovStepBox.TabIndex = 3073;
+            this.recovStepBox.TabIndex = 57;
             this.recovStepBox.TextChanged += new System.EventHandler(this.recovStepBox_TextChanged);
             // 
             // recovTestBox
@@ -1089,7 +1102,7 @@
             this.recovTestBox.Location = new System.Drawing.Point(34, 762);
             this.recovTestBox.Name = "recovTestBox";
             this.recovTestBox.Size = new System.Drawing.Size(57, 20);
-            this.recovTestBox.TabIndex = 3071;
+            this.recovTestBox.TabIndex = 56;
             this.recovTestBox.TextChanged += new System.EventHandler(this.recovTestBox_TextChanged);
             // 
             // recovADbox
@@ -1097,7 +1110,7 @@
             this.recovADbox.Location = new System.Drawing.Point(218, 762);
             this.recovADbox.Name = "recovADbox";
             this.recovADbox.Size = new System.Drawing.Size(59, 20);
-            this.recovADbox.TabIndex = 3072;
+            this.recovADbox.TabIndex = 58;
             this.recovADbox.TextChanged += new System.EventHandler(this.recovADbox_TextChanged);
             // 
             // unconAdjBox
@@ -1105,7 +1118,7 @@
             this.unconAdjBox.Location = new System.Drawing.Point(127, 842);
             this.unconAdjBox.Name = "unconAdjBox";
             this.unconAdjBox.Size = new System.Drawing.Size(52, 20);
-            this.unconAdjBox.TabIndex = 3080;
+            this.unconAdjBox.TabIndex = 60;
             this.unconAdjBox.TextChanged += new System.EventHandler(this.unconAdjBox_TextChanged);
             // 
             // unconBaseBox
@@ -1113,7 +1126,7 @@
             this.unconBaseBox.Location = new System.Drawing.Point(34, 842);
             this.unconBaseBox.Name = "unconBaseBox";
             this.unconBaseBox.Size = new System.Drawing.Size(57, 20);
-            this.unconBaseBox.TabIndex = 3078;
+            this.unconBaseBox.TabIndex = 59;
             this.unconBaseBox.TextChanged += new System.EventHandler(this.unconBaseBox_TextChanged);
             // 
             // unconCurBox
@@ -1121,7 +1134,7 @@
             this.unconCurBox.Location = new System.Drawing.Point(218, 842);
             this.unconCurBox.Name = "unconCurBox";
             this.unconCurBox.Size = new System.Drawing.Size(59, 20);
-            this.unconCurBox.TabIndex = 3079;
+            this.unconCurBox.TabIndex = 61;
             this.unconCurBox.TextChanged += new System.EventHandler(this.unconCurBox_TextChanged);
             // 
             // label49
@@ -1165,7 +1178,7 @@
             this.deathAdjBox.Location = new System.Drawing.Point(127, 924);
             this.deathAdjBox.Name = "deathAdjBox";
             this.deathAdjBox.Size = new System.Drawing.Size(52, 20);
-            this.deathAdjBox.TabIndex = 3087;
+            this.deathAdjBox.TabIndex = 63;
             this.deathAdjBox.TextChanged += new System.EventHandler(this.deathAdjBox_TextChanged);
             // 
             // deathBaseBox
@@ -1173,7 +1186,7 @@
             this.deathBaseBox.Location = new System.Drawing.Point(34, 924);
             this.deathBaseBox.Name = "deathBaseBox";
             this.deathBaseBox.Size = new System.Drawing.Size(57, 20);
-            this.deathBaseBox.TabIndex = 3085;
+            this.deathBaseBox.TabIndex = 62;
             this.deathBaseBox.TextChanged += new System.EventHandler(this.deathBaseBox_TextChanged);
             // 
             // deathCurBox
@@ -1181,7 +1194,7 @@
             this.deathCurBox.Location = new System.Drawing.Point(218, 924);
             this.deathCurBox.Name = "deathCurBox";
             this.deathCurBox.Size = new System.Drawing.Size(59, 20);
-            this.deathCurBox.TabIndex = 3086;
+            this.deathCurBox.TabIndex = 64;
             this.deathCurBox.TextChanged += new System.EventHandler(this.deathCurBox_TextChanged);
             // 
             // label53
@@ -1220,26 +1233,29 @@
             this.label56.TabIndex = 3081;
             this.label56.Text = "Death";
             // 
-            // textBox1
+            // woundThreshBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(610, 924);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(52, 20);
-            this.textBox1.TabIndex = 3094;
+            this.woundThreshBox.Location = new System.Drawing.Point(610, 924);
+            this.woundThreshBox.Name = "woundThreshBox";
+            this.woundThreshBox.Size = new System.Drawing.Size(52, 20);
+            this.woundThreshBox.TabIndex = 72;
+            this.woundThreshBox.TextChanged += new System.EventHandler(this.woundThreshBox_TextChanged);
             // 
-            // textBox2
+            // woundCurBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(517, 924);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(57, 20);
-            this.textBox2.TabIndex = 3092;
+            this.woundCurBox.Location = new System.Drawing.Point(517, 924);
+            this.woundCurBox.Name = "woundCurBox";
+            this.woundCurBox.Size = new System.Drawing.Size(57, 20);
+            this.woundCurBox.TabIndex = 71;
+            this.woundCurBox.TextChanged += new System.EventHandler(this.woundCurBox_TextChanged);
             // 
-            // textBox3
+            // woundPenBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(701, 924);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(59, 20);
-            this.textBox3.TabIndex = 3093;
+            this.woundPenBox.Location = new System.Drawing.Point(701, 924);
+            this.woundPenBox.Name = "woundPenBox";
+            this.woundPenBox.Size = new System.Drawing.Size(59, 20);
+            this.woundPenBox.TabIndex = 73;
+            this.woundPenBox.TextChanged += new System.EventHandler(this.woundPenBox_TextChanged);
             // 
             // label57
             // 
@@ -1277,15 +1293,139 @@
             this.label60.TabIndex = 3088;
             this.label60.Text = "Wounds";
             // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(545, 746);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(34, 13);
+            this.label61.TabIndex = 3096;
+            this.label61.Text = "Armor";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(582, 721);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(73, 13);
+            this.label62.TabIndex = 3095;
+            this.label62.Text = "Armor Ratings";
+            // 
+            // armorBox
+            // 
+            this.armorBox.Location = new System.Drawing.Point(585, 743);
+            this.armorBox.Name = "armorBox";
+            this.armorBox.Size = new System.Drawing.Size(142, 20);
+            this.armorBox.TabIndex = 65;
+            this.armorBox.TextChanged += new System.EventHandler(this.armorBox_TextChanged);
+            // 
+            // shieldBox
+            // 
+            this.shieldBox.Location = new System.Drawing.Point(585, 769);
+            this.shieldBox.Name = "shieldBox";
+            this.shieldBox.Size = new System.Drawing.Size(142, 20);
+            this.shieldBox.TabIndex = 66;
+            this.shieldBox.TextChanged += new System.EventHandler(this.shieldBox_TextChanged);
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(545, 772);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(36, 13);
+            this.label63.TabIndex = 3098;
+            this.label63.Text = "Shield";
+            // 
+            // phyArmorBox
+            // 
+            this.phyArmorBox.Location = new System.Drawing.Point(585, 802);
+            this.phyArmorBox.Name = "phyArmorBox";
+            this.phyArmorBox.Size = new System.Drawing.Size(142, 20);
+            this.phyArmorBox.TabIndex = 68;
+            this.phyArmorBox.TextChanged += new System.EventHandler(this.phyArmorBox_TextChanged);
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(505, 805);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(76, 13);
+            this.label64.TabIndex = 3100;
+            this.label64.Text = "Physical Armor";
+            // 
+            // mysArmorBox
+            // 
+            this.mysArmorBox.Location = new System.Drawing.Point(585, 828);
+            this.mysArmorBox.Name = "mysArmorBox";
+            this.mysArmorBox.Size = new System.Drawing.Size(142, 20);
+            this.mysArmorBox.TabIndex = 69;
+            this.mysArmorBox.TextChanged += new System.EventHandler(this.mysArmorBox_TextChanged);
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(504, 831);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(75, 13);
+            this.label65.TabIndex = 3102;
+            this.label65.Text = "Mystical Armor";
+            // 
+            // curDmgBox
+            // 
+            this.curDmgBox.Location = new System.Drawing.Point(585, 854);
+            this.curDmgBox.Name = "curDmgBox";
+            this.curDmgBox.Size = new System.Drawing.Size(142, 20);
+            this.curDmgBox.TabIndex = 70;
+            this.curDmgBox.TextChanged += new System.EventHandler(this.curDmgBox_TextChanged);
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(495, 857);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(84, 13);
+            this.label66.TabIndex = 3104;
+            this.label66.Text = "Current Damage";
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Location = new System.Drawing.Point(748, 747);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(88, 13);
+            this.label67.TabIndex = 3106;
+            this.label67.Text = "Deflection Bonus";
+            // 
+            // deflectBonusBox
+            // 
+            this.deflectBonusBox.Location = new System.Drawing.Point(751, 769);
+            this.deflectBonusBox.Name = "deflectBonusBox";
+            this.deflectBonusBox.Size = new System.Drawing.Size(85, 20);
+            this.deflectBonusBox.TabIndex = 67;
+            this.deflectBonusBox.TextChanged += new System.EventHandler(this.deflectBonusBox_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(857, 967);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.deflectBonusBox);
+            this.Controls.Add(this.label67);
+            this.Controls.Add(this.curDmgBox);
+            this.Controls.Add(this.label66);
+            this.Controls.Add(this.mysArmorBox);
+            this.Controls.Add(this.label65);
+            this.Controls.Add(this.phyArmorBox);
+            this.Controls.Add(this.label64);
+            this.Controls.Add(this.shieldBox);
+            this.Controls.Add(this.label63);
+            this.Controls.Add(this.armorBox);
+            this.Controls.Add(this.label61);
+            this.Controls.Add(this.label62);
+            this.Controls.Add(this.woundThreshBox);
+            this.Controls.Add(this.woundCurBox);
+            this.Controls.Add(this.woundPenBox);
             this.Controls.Add(this.label57);
             this.Controls.Add(this.label58);
             this.Controls.Add(this.label59);
@@ -1549,13 +1689,26 @@
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox woundThreshBox;
+        private System.Windows.Forms.TextBox woundCurBox;
+        private System.Windows.Forms.TextBox woundPenBox;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.TextBox armorBox;
+        private System.Windows.Forms.TextBox shieldBox;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.TextBox phyArmorBox;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.TextBox mysArmorBox;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.TextBox curDmgBox;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.TextBox deflectBonusBox;
     }
 }
 
