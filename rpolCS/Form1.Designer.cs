@@ -360,6 +360,7 @@
             this.deathAdjBox.Name = "deathAdjBox";
             this.deathAdjBox.Size = new System.Drawing.Size(52, 20);
             this.deathAdjBox.TabIndex = 65;
+            this.deathAdjBox.TextChanged += new System.EventHandler(this.deathAdjBox_TextChanged);
             // 
             // deathBaseBox
             // 
@@ -367,6 +368,7 @@
             this.deathBaseBox.Name = "deathBaseBox";
             this.deathBaseBox.Size = new System.Drawing.Size(57, 20);
             this.deathBaseBox.TabIndex = 64;
+            this.deathBaseBox.TextChanged += new System.EventHandler(this.deathBaseBox_TextChanged);
             // 
             // deathCurBox
             // 
@@ -374,6 +376,7 @@
             this.deathCurBox.Name = "deathCurBox";
             this.deathCurBox.Size = new System.Drawing.Size(59, 20);
             this.deathCurBox.TabIndex = 66;
+            this.deathCurBox.TextChanged += new System.EventHandler(this.deathCurBox_TextChanged);
             // 
             // label53
             // 
@@ -408,6 +411,7 @@
             this.woundThreshBox.Name = "woundThreshBox";
             this.woundThreshBox.Size = new System.Drawing.Size(52, 20);
             this.woundThreshBox.TabIndex = 74;
+            this.woundThreshBox.TextChanged += new System.EventHandler(this.woundThreshBox_TextChanged);
             // 
             // woundCurBox
             // 
@@ -415,6 +419,7 @@
             this.woundCurBox.Name = "woundCurBox";
             this.woundCurBox.Size = new System.Drawing.Size(57, 20);
             this.woundCurBox.TabIndex = 73;
+            this.woundCurBox.TextChanged += new System.EventHandler(this.woundCurBox_TextChanged);
             // 
             // woundPenBox
             // 
@@ -422,6 +427,7 @@
             this.woundPenBox.Name = "woundPenBox";
             this.woundPenBox.Size = new System.Drawing.Size(59, 20);
             this.woundPenBox.TabIndex = 75;
+            this.woundPenBox.TextChanged += new System.EventHandler(this.woundPenBox_TextChanged);
             // 
             // label57
             // 
@@ -456,6 +462,7 @@
             this.deflectBonusBox.Name = "deflectBonusBox";
             this.deflectBonusBox.Size = new System.Drawing.Size(85, 20);
             this.deflectBonusBox.TabIndex = 69;
+            this.deflectBonusBox.TextChanged += new System.EventHandler(this.deflectBonusBox_TextChanged);
             // 
             // label67
             // 
@@ -472,6 +479,7 @@
             this.curDmgBox.Name = "curDmgBox";
             this.curDmgBox.Size = new System.Drawing.Size(142, 20);
             this.curDmgBox.TabIndex = 72;
+            this.curDmgBox.TextChanged += new System.EventHandler(this.curDmgBox_TextChanged);
             // 
             // label66
             // 
@@ -488,6 +496,7 @@
             this.mysArmorBox.Name = "mysArmorBox";
             this.mysArmorBox.Size = new System.Drawing.Size(142, 20);
             this.mysArmorBox.TabIndex = 71;
+            this.mysArmorBox.TextChanged += new System.EventHandler(this.mysArmorBox_TextChanged);
             // 
             // label65
             // 
@@ -504,6 +513,7 @@
             this.phyArmorBox.Name = "phyArmorBox";
             this.phyArmorBox.Size = new System.Drawing.Size(142, 20);
             this.phyArmorBox.TabIndex = 70;
+            this.phyArmorBox.TextChanged += new System.EventHandler(this.phyArmorBox_TextChanged);
             // 
             // label64
             // 
@@ -520,6 +530,7 @@
             this.shieldBox.Name = "shieldBox";
             this.shieldBox.Size = new System.Drawing.Size(142, 20);
             this.shieldBox.TabIndex = 68;
+            this.shieldBox.TextChanged += new System.EventHandler(this.shieldBox_TextChanged);
             // 
             // label63
             // 
@@ -536,6 +547,7 @@
             this.armorBox.Name = "armorBox";
             this.armorBox.Size = new System.Drawing.Size(142, 20);
             this.armorBox.TabIndex = 67;
+            this.armorBox.TextChanged += new System.EventHandler(this.armorBox_TextChanged);
             // 
             // label61
             // 
@@ -579,6 +591,7 @@
             this.unconAdjBox.Name = "unconAdjBox";
             this.unconAdjBox.Size = new System.Drawing.Size(52, 20);
             this.unconAdjBox.TabIndex = 62;
+            this.unconAdjBox.TextChanged += new System.EventHandler(this.unconAdjBox_TextChanged);
             // 
             // unconBaseBox
             // 
@@ -586,6 +599,7 @@
             this.unconBaseBox.Name = "unconBaseBox";
             this.unconBaseBox.Size = new System.Drawing.Size(57, 20);
             this.unconBaseBox.TabIndex = 61;
+            this.unconBaseBox.TextChanged += new System.EventHandler(this.unconBaseBox_TextChanged);
             // 
             // unconCurBox
             // 
@@ -593,6 +607,7 @@
             this.unconCurBox.Name = "unconCurBox";
             this.unconCurBox.Size = new System.Drawing.Size(59, 20);
             this.unconCurBox.TabIndex = 63;
+            this.unconCurBox.TextChanged += new System.EventHandler(this.unconCurBox_TextChanged);
             // 
             // label49
             // 
@@ -636,6 +651,7 @@
             this.recovStepBox.Name = "recovStepBox";
             this.recovStepBox.Size = new System.Drawing.Size(52, 20);
             this.recovStepBox.TabIndex = 59;
+            this.recovStepBox.TextChanged += new System.EventHandler(this.recovStepBox_TextChanged);
             // 
             // recovTestBox
             // 
@@ -643,6 +659,7 @@
             this.recovTestBox.Name = "recovTestBox";
             this.recovTestBox.Size = new System.Drawing.Size(57, 20);
             this.recovTestBox.TabIndex = 58;
+            this.recovTestBox.TextChanged += new System.EventHandler(this.recovTestBox_TextChanged);
             // 
             // recovADbox
             // 
@@ -650,6 +667,7 @@
             this.recovADbox.Name = "recovADbox";
             this.recovADbox.Size = new System.Drawing.Size(59, 20);
             this.recovADbox.TabIndex = 60;
+            this.recovADbox.TextChanged += new System.EventHandler(this.recovADbox_TextChanged);
             // 
             // label48
             // 
@@ -729,6 +747,7 @@
             this.karmaMaxBox.Name = "karmaMaxBox";
             this.karmaMaxBox.Size = new System.Drawing.Size(63, 20);
             this.karmaMaxBox.TabIndex = 57;
+            this.karmaMaxBox.TextChanged += new System.EventHandler(this.karmaMaxBox_TextChanged);
             // 
             // karmaCurBox
             // 
@@ -736,6 +755,7 @@
             this.karmaCurBox.Name = "karmaCurBox";
             this.karmaCurBox.Size = new System.Drawing.Size(70, 20);
             this.karmaCurBox.TabIndex = 56;
+            this.karmaCurBox.TextChanged += new System.EventHandler(this.karmaCurBox_TextChanged);
             // 
             // carryBox
             // 
@@ -743,6 +763,7 @@
             this.carryBox.Name = "carryBox";
             this.carryBox.Size = new System.Drawing.Size(52, 20);
             this.carryBox.TabIndex = 55;
+            this.carryBox.TextChanged += new System.EventHandler(this.carryBox_TextChanged);
             // 
             // movBox
             // 
@@ -750,6 +771,7 @@
             this.movBox.Name = "movBox";
             this.movBox.Size = new System.Drawing.Size(54, 20);
             this.movBox.TabIndex = 54;
+            this.movBox.TextChanged += new System.EventHandler(this.movBox_TextChanged);
             // 
             // label39
             // 
@@ -803,6 +825,7 @@
             this.phyBox.Name = "phyBox";
             this.phyBox.Size = new System.Drawing.Size(38, 20);
             this.phyBox.TabIndex = 51;
+            this.phyBox.TextChanged += new System.EventHandler(this.phyBox_TextChanged);
             // 
             // SocBox
             // 
@@ -810,6 +833,7 @@
             this.SocBox.Name = "SocBox";
             this.SocBox.Size = new System.Drawing.Size(38, 20);
             this.SocBox.TabIndex = 53;
+            this.SocBox.TextChanged += new System.EventHandler(this.SocBox_TextChanged);
             // 
             // mysBox
             // 
@@ -817,6 +841,7 @@
             this.mysBox.Name = "mysBox";
             this.mysBox.Size = new System.Drawing.Size(38, 20);
             this.mysBox.TabIndex = 52;
+            this.mysBox.TextChanged += new System.EventHandler(this.mysBox_TextChanged);
             // 
             // label35
             // 
@@ -860,6 +885,7 @@
             this.initADbox.Name = "initADbox";
             this.initADbox.Size = new System.Drawing.Size(59, 20);
             this.initADbox.TabIndex = 50;
+            this.initADbox.TextChanged += new System.EventHandler(this.initADbox_TextChanged);
             // 
             // initStepBox
             // 
@@ -867,6 +893,7 @@
             this.initStepBox.Name = "initStepBox";
             this.initStepBox.Size = new System.Drawing.Size(61, 20);
             this.initStepBox.TabIndex = 49;
+            this.initStepBox.TextChanged += new System.EventHandler(this.initStepBox_TextChanged);
             // 
             // label33
             // 
@@ -901,6 +928,7 @@
             this.perADbox.Name = "perADbox";
             this.perADbox.Size = new System.Drawing.Size(38, 20);
             this.perADbox.TabIndex = 38;
+            this.perADbox.TextChanged += new System.EventHandler(this.perADbox_TextChanged);
             // 
             // chaADbox
             // 
@@ -908,6 +936,7 @@
             this.chaADbox.Name = "chaADbox";
             this.chaADbox.Size = new System.Drawing.Size(38, 20);
             this.chaADbox.TabIndex = 48;
+            this.chaADbox.TextChanged += new System.EventHandler(this.chaADbox_TextChanged);
             // 
             // wilADbox
             // 
@@ -915,6 +944,7 @@
             this.wilADbox.Name = "wilADbox";
             this.wilADbox.Size = new System.Drawing.Size(38, 20);
             this.wilADbox.TabIndex = 43;
+            this.wilADbox.TextChanged += new System.EventHandler(this.wilADbox_TextChanged);
             // 
             // touADbox
             // 
@@ -922,6 +952,7 @@
             this.touADbox.Name = "touADbox";
             this.touADbox.Size = new System.Drawing.Size(38, 20);
             this.touADbox.TabIndex = 33;
+            this.touADbox.TextChanged += new System.EventHandler(this.touADbox_TextChanged);
             // 
             // strADbox
             // 
@@ -929,6 +960,7 @@
             this.strADbox.Name = "strADbox";
             this.strADbox.Size = new System.Drawing.Size(38, 20);
             this.strADbox.TabIndex = 28;
+            this.strADbox.TextChanged += new System.EventHandler(this.strADbox_TextChanged);
             // 
             // dexADbox
             // 
@@ -953,6 +985,7 @@
             this.perStepBox.Name = "perStepBox";
             this.perStepBox.Size = new System.Drawing.Size(38, 20);
             this.perStepBox.TabIndex = 37;
+            this.perStepBox.TextChanged += new System.EventHandler(this.perStepBox_TextChanged);
             // 
             // chaStepBox
             // 
@@ -960,6 +993,7 @@
             this.chaStepBox.Name = "chaStepBox";
             this.chaStepBox.Size = new System.Drawing.Size(38, 20);
             this.chaStepBox.TabIndex = 47;
+            this.chaStepBox.TextChanged += new System.EventHandler(this.chaStepBox_TextChanged);
             // 
             // wilStepBox
             // 
@@ -967,6 +1001,7 @@
             this.wilStepBox.Name = "wilStepBox";
             this.wilStepBox.Size = new System.Drawing.Size(38, 20);
             this.wilStepBox.TabIndex = 42;
+            this.wilStepBox.TextChanged += new System.EventHandler(this.wilStepBox_TextChanged);
             // 
             // touStepBox
             // 
@@ -974,6 +1009,7 @@
             this.touStepBox.Name = "touStepBox";
             this.touStepBox.Size = new System.Drawing.Size(38, 20);
             this.touStepBox.TabIndex = 32;
+            this.touStepBox.TextChanged += new System.EventHandler(this.touStepBox_TextChanged);
             // 
             // strStepBox
             // 
@@ -981,6 +1017,7 @@
             this.strStepBox.Name = "strStepBox";
             this.strStepBox.Size = new System.Drawing.Size(38, 20);
             this.strStepBox.TabIndex = 27;
+            this.strStepBox.TextChanged += new System.EventHandler(this.strStepBox_TextChanged);
             // 
             // dexStepBox
             // 
@@ -1005,6 +1042,7 @@
             this.perCurBox.Name = "perCurBox";
             this.perCurBox.Size = new System.Drawing.Size(38, 20);
             this.perCurBox.TabIndex = 36;
+            this.perCurBox.TextChanged += new System.EventHandler(this.perCurBox_TextChanged);
             // 
             // chaCurBox
             // 
@@ -1012,6 +1050,7 @@
             this.chaCurBox.Name = "chaCurBox";
             this.chaCurBox.Size = new System.Drawing.Size(38, 20);
             this.chaCurBox.TabIndex = 46;
+            this.chaCurBox.TextChanged += new System.EventHandler(this.chaCurBox_TextChanged);
             // 
             // wilCurBox
             // 
@@ -1019,6 +1058,7 @@
             this.wilCurBox.Name = "wilCurBox";
             this.wilCurBox.Size = new System.Drawing.Size(38, 20);
             this.wilCurBox.TabIndex = 41;
+            this.wilCurBox.TextChanged += new System.EventHandler(this.wilCurBox_TextChanged);
             // 
             // touCurBox
             // 
@@ -1026,6 +1066,7 @@
             this.touCurBox.Name = "touCurBox";
             this.touCurBox.Size = new System.Drawing.Size(38, 20);
             this.touCurBox.TabIndex = 31;
+            this.touCurBox.TextChanged += new System.EventHandler(this.touCurBox_TextChanged);
             // 
             // strCurBox
             // 
@@ -1033,6 +1074,7 @@
             this.strCurBox.Name = "strCurBox";
             this.strCurBox.Size = new System.Drawing.Size(38, 20);
             this.strCurBox.TabIndex = 26;
+            this.strCurBox.TextChanged += new System.EventHandler(this.strCurBox_TextChanged);
             // 
             // dexCurBox
             // 
@@ -1057,6 +1099,7 @@
             this.perBaseBox.Name = "perBaseBox";
             this.perBaseBox.Size = new System.Drawing.Size(38, 20);
             this.perBaseBox.TabIndex = 34;
+            this.perBaseBox.TextChanged += new System.EventHandler(this.perBaseBox_TextChanged);
             // 
             // chaBaseBox
             // 
@@ -1064,6 +1107,7 @@
             this.chaBaseBox.Name = "chaBaseBox";
             this.chaBaseBox.Size = new System.Drawing.Size(38, 20);
             this.chaBaseBox.TabIndex = 44;
+            this.chaBaseBox.TextChanged += new System.EventHandler(this.chaBaseBox_TextChanged);
             // 
             // wilBaseBox
             // 
@@ -1071,6 +1115,7 @@
             this.wilBaseBox.Name = "wilBaseBox";
             this.wilBaseBox.Size = new System.Drawing.Size(38, 20);
             this.wilBaseBox.TabIndex = 39;
+            this.wilBaseBox.TextChanged += new System.EventHandler(this.wilBaseBox_TextChanged);
             // 
             // touBaseBox
             // 
@@ -1078,6 +1123,7 @@
             this.touBaseBox.Name = "touBaseBox";
             this.touBaseBox.Size = new System.Drawing.Size(38, 20);
             this.touBaseBox.TabIndex = 29;
+            this.touBaseBox.TextChanged += new System.EventHandler(this.touBaseBox_TextChanged);
             // 
             // strBaseBox
             // 
@@ -1085,6 +1131,7 @@
             this.strBaseBox.Name = "strBaseBox";
             this.strBaseBox.Size = new System.Drawing.Size(38, 20);
             this.strBaseBox.TabIndex = 24;
+            this.strBaseBox.TextChanged += new System.EventHandler(this.strBaseBox_TextChanged);
             // 
             // dexBaseBox
             // 
@@ -1100,6 +1147,7 @@
             this.perLPbox.Name = "perLPbox";
             this.perLPbox.Size = new System.Drawing.Size(38, 20);
             this.perLPbox.TabIndex = 35;
+            this.perLPbox.TextChanged += new System.EventHandler(this.perLPbox_TextChanged);
             // 
             // chaLPbox
             // 
@@ -1107,6 +1155,7 @@
             this.chaLPbox.Name = "chaLPbox";
             this.chaLPbox.Size = new System.Drawing.Size(38, 20);
             this.chaLPbox.TabIndex = 45;
+            this.chaLPbox.TextChanged += new System.EventHandler(this.chaLPbox_TextChanged);
             // 
             // wilLPbox
             // 
@@ -1114,6 +1163,7 @@
             this.wilLPbox.Name = "wilLPbox";
             this.wilLPbox.Size = new System.Drawing.Size(38, 20);
             this.wilLPbox.TabIndex = 40;
+            this.wilLPbox.TextChanged += new System.EventHandler(this.wilLPbox_TextChanged);
             // 
             // touLPbox
             // 
@@ -1121,6 +1171,7 @@
             this.touLPbox.Name = "touLPbox";
             this.touLPbox.Size = new System.Drawing.Size(38, 20);
             this.touLPbox.TabIndex = 30;
+            this.touLPbox.TextChanged += new System.EventHandler(this.touLPbox_TextChanged);
             // 
             // strLPbox
             // 
@@ -1128,6 +1179,7 @@
             this.strLPbox.Name = "strLPbox";
             this.strLPbox.Size = new System.Drawing.Size(38, 20);
             this.strLPbox.TabIndex = 25;
+            this.strLPbox.TextChanged += new System.EventHandler(this.strLPbox_TextChanged);
             // 
             // dexLPbox
             // 

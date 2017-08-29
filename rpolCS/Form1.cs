@@ -24,9 +24,9 @@ namespace rpolCS
                touNum, touLPinc, touCurNum, touStepNum, touActDieNum, perNum, perLPinc, perCurNum, perStepNum,
                perActDieNum, phyDefNum, wilNum, wilLPinc, wilCurNum, wilStepNum, wilActDieNum, mysDefNum,
                chaNum, chaLPinc, chaCurNum, chaStepNum, chaActDieNum, socDefNum, movNum, carryNum, karmaCurNum,
-               karmaMaxNum, armorName, recovTestNum, recovStepNum, recovActDieNum, shieldName, deflectBonusNum, phyArmNum, uncBaseNum,
-               uncAdjNum, uncCurNum, dmgCurNum, deathBaseNum, deathAdjNum, deathCurNum, woundCurNum, woundThreshNum, 
-               woundPenNum;
+               karmaMaxNum, armorName, recovTestNum, recovStepNum, recovActDieNum, shieldName, deflectBonusNum, phyArmNum, 
+               mysArmNum, uncBaseNum, uncAdjNum, uncCurNum, dmgCurNum, deathBaseNum, deathAdjNum, deathCurNum, 
+               woundCurNum, woundThreshNum, woundPenNum;
 
 
         public Form1()
@@ -235,7 +235,7 @@ namespace rpolCS
             writer.WriteLine(" |^! Tests/Day |^! Step |^! Action Dice |2.1 |^! Defl.Bonus |");
             writer.WriteLine(" |^ " + recovTestNum + " |^ " + recovStepNum + " |^ " + recovActDieNum + " |>! Shield |< " + shieldName + " |^ " + deflectBonusNum + " |");
             writer.WriteLine(" |3^! Unconciousness           |2>! Physical Armor |^ " + phyArmNum + " |");
-            writer.WriteLine(" |^! Base  |^! Adj. |^! Current |2>! Mystical Armor |^ 2|");
+            writer.WriteLine(" |^! Base  |^! Adj. |^! Current |2>! Mystical Armor |^ " + mysArmNum + " |");
             writer.WriteLine(" |^ " + uncBaseNum + " |^ " + uncAdjNum + " |^ " + uncCurNum + " |2>! Current Damage |^ " + dmgCurNum + " |");
             writer.WriteLine(" |3^! Death                     |3^! Wounds |");
             writer.WriteLine(" |^! Base  |^! Adj. |^! Current |^!Number of |^! Threshold |! Penalty |");
@@ -247,7 +247,7 @@ namespace rpolCS
             MessageBox.Show("Your character has been saved to the following file:\n\n\n" + @workingFolder + @"\" + workingFilename);
         }
 
-        #region //Finished stuff
+        #region // Finished Tab 1
         private void fileNameBox_TextChanged(object sender, EventArgs e)
         {
             workingFilename = fileNameBox.Text + @".txt";
@@ -269,7 +269,6 @@ namespace rpolCS
             }
             workingPath = @workingFolder + workingFilename;
         }
-        #endregion 
 
         private void nameBox_TextChanged(object sender, EventArgs e)
         {
@@ -375,5 +374,266 @@ namespace rpolCS
         {
             dexActDieNum = dexADbox.Text;
         }
+
+        private void strBaseBox_TextChanged(object sender, EventArgs e)
+        {
+            strNum = strBaseBox.Text;
+        }
+
+        private void strLPbox_TextChanged(object sender, EventArgs e)
+        {
+            strLPinc = strLPbox.Text;
+        }
+
+        private void strCurBox_TextChanged(object sender, EventArgs e)
+        {
+            strCurNum = strCurBox.Text;
+        }
+
+        private void strStepBox_TextChanged(object sender, EventArgs e)
+        {
+            strStepNum = strStepBox.Text;
+        }
+
+        private void strADbox_TextChanged(object sender, EventArgs e)
+        {
+            strActDieNum = strADbox.Text;
+        }
+
+        private void touBaseBox_TextChanged(object sender, EventArgs e)
+        {
+            touNum = touBaseBox.Text;
+        }
+
+        private void touLPbox_TextChanged(object sender, EventArgs e)
+        {
+            touLPinc = touLPbox.Text;
+        }
+
+        private void touCurBox_TextChanged(object sender, EventArgs e)
+        {
+            touCurNum = touCurBox.Text;
+        }
+
+        private void touStepBox_TextChanged(object sender, EventArgs e)
+        {
+            touStepNum = touStepBox.Text;
+        }
+
+        private void touADbox_TextChanged(object sender, EventArgs e)
+        {
+            touActDieNum = touADbox.Text;
+        }
+
+        private void perBaseBox_TextChanged(object sender, EventArgs e)
+        {
+            perNum = perBaseBox.Text;
+        }
+
+        private void perLPbox_TextChanged(object sender, EventArgs e)
+        {
+            perLPinc = perLPbox.Text;
+        }
+
+        private void perCurBox_TextChanged(object sender, EventArgs e)
+        {
+            perCurNum = perCurBox.Text;
+        }
+
+        private void perStepBox_TextChanged(object sender, EventArgs e)
+        {
+            perStepNum = perStepBox.Text;
+        }
+
+        private void perADbox_TextChanged(object sender, EventArgs e)
+        {
+            perLPinc = perLPbox.Text;
+        }
+
+        private void wilBaseBox_TextChanged(object sender, EventArgs e)
+        {
+            wilNum = wilBaseBox.Text;
+        }
+
+        private void wilLPbox_TextChanged(object sender, EventArgs e)
+        {
+            wilLPinc = wilLPbox.Text;
+        }
+
+        private void wilCurBox_TextChanged(object sender, EventArgs e)
+        {
+            wilCurNum = wilCurBox.Text;
+        }
+
+        private void wilStepBox_TextChanged(object sender, EventArgs e)
+        {
+            wilStepNum = wilStepBox.Text;
+        }
+
+        private void wilADbox_TextChanged(object sender, EventArgs e)
+        {
+            wilActDieNum = wilADbox.Text;
+        }
+
+        private void chaBaseBox_TextChanged(object sender, EventArgs e)
+        {
+            chaNum = chaBaseBox.Text;
+        }
+
+        private void chaLPbox_TextChanged(object sender, EventArgs e)
+        {
+            chaLPinc = chaLPbox.Text;
+        }
+
+        private void chaCurBox_TextChanged(object sender, EventArgs e)
+        {
+            chaCurNum = chaCurBox.Text;
+        }
+
+        private void chaStepBox_TextChanged(object sender, EventArgs e)
+        {
+            chaStepNum = chaStepBox.Text;
+        }
+
+        private void chaADbox_TextChanged(object sender, EventArgs e)
+        {
+            chaActDieNum = chaADbox.Text;
+        }
+
+        private void initStepBox_TextChanged(object sender, EventArgs e)
+        {
+            initStepNum = initStepBox.Text;
+        }
+
+        private void initADbox_TextChanged(object sender, EventArgs e)
+        {
+            initActDie = initADbox.Text;
+        }
+
+        private void phyBox_TextChanged(object sender, EventArgs e)
+        {
+            phyDefNum = phyBox.Text;
+        }
+
+        private void mysBox_TextChanged(object sender, EventArgs e)
+        {
+            mysDefNum = mysBox.Text;
+        }
+
+        private void SocBox_TextChanged(object sender, EventArgs e)
+        {
+            socDefNum = SocBox.Text;
+        }
+
+        private void movBox_TextChanged(object sender, EventArgs e)
+        {
+            movNum = movBox.Text;
+        }
+
+        private void carryBox_TextChanged(object sender, EventArgs e)
+        {
+            carryNum = carryBox.Text;
+        }
+
+        private void karmaCurBox_TextChanged(object sender, EventArgs e)
+        {
+            karmaCurNum = karmaCurBox.Text;
+        }
+
+        private void karmaMaxBox_TextChanged(object sender, EventArgs e)
+        {
+            karmaMaxNum = karmaMaxBox.Text;
+        }
+
+        private void recovTestBox_TextChanged(object sender, EventArgs e)
+        {
+            recovTestNum = recovTestBox.Text;
+        }
+
+        private void recovStepBox_TextChanged(object sender, EventArgs e)
+        {
+            recovStepNum = recovStepBox.Text;
+        }
+
+        private void recovADbox_TextChanged(object sender, EventArgs e)
+        {
+            recovActDieNum = recovADbox.Text;
+        }
+
+        private void unconBaseBox_TextChanged(object sender, EventArgs e)
+        {
+            uncBaseNum = unconBaseBox.Text;
+        }
+
+        private void unconAdjBox_TextChanged(object sender, EventArgs e)
+        {
+            uncAdjNum = unconAdjBox.Text;
+        }
+
+        private void unconCurBox_TextChanged(object sender, EventArgs e)
+        {
+            uncCurNum = unconCurBox.Text;
+        }
+
+        private void deathBaseBox_TextChanged(object sender, EventArgs e)
+        {
+            deathBaseNum = deathBaseBox.Text;
+        }
+
+        private void deathAdjBox_TextChanged(object sender, EventArgs e)
+        {
+            deathAdjNum = deathAdjBox.Text;
+        }
+
+        private void deathCurBox_TextChanged(object sender, EventArgs e)
+        {
+            deathCurNum = deathCurBox.Text;
+        }
+
+        private void armorBox_TextChanged(object sender, EventArgs e)
+        {
+            armorName = armorBox.Text;
+        }
+
+        private void shieldBox_TextChanged(object sender, EventArgs e)
+        {
+            shieldName = shieldBox.Text;
+        }
+
+        private void deflectBonusBox_TextChanged(object sender, EventArgs e)
+        {
+            deflectBonusNum = deflectBonusBox.Text;
+        }
+
+        private void phyArmorBox_TextChanged(object sender, EventArgs e)
+        {
+            phyArmNum = phyArmorBox.Text;
+        }
+
+        private void mysArmorBox_TextChanged(object sender, EventArgs e)
+        {
+            mysDefNum = mysArmorBox.Text;
+        }
+
+        private void curDmgBox_TextChanged(object sender, EventArgs e)
+        {
+            dmgCurNum = curDmgBox.Text;
+        }
+
+        private void woundCurBox_TextChanged(object sender, EventArgs e)
+        {
+            woundCurNum = woundCurBox.Text;
+        }
+
+        private void woundThreshBox_TextChanged(object sender, EventArgs e)
+        {
+            woundThreshNum = woundThreshBox.Text;
+        }
+
+        private void woundPenBox_TextChanged(object sender, EventArgs e)
+        {
+            woundPenNum = woundPenBox.Text;
+        }
+#endregion
     }
 }
