@@ -34,51 +34,6 @@ namespace rpolCS
             InitializeComponent();
         }
 
-
-        private void saveButton_Click(object sender, EventArgs e)
-        {
-            
-            FileStream fs = new FileStream(@workingFolder + @"\" + workingFilename, FileMode.OpenOrCreate, FileAccess.Write);
-            StreamWriter writer = new StreamWriter(fs);
-            writer.WriteLine("|8 Earthdawn Character Sheet v2.2  |");
-            writer.WriteLine("|--------------------------------|");
-            writer.WriteLine("|>! Name : |7< " + charName + " |");
-            writer.WriteLine("|>! Discipline : |5< " + discName + " |>! Circle : | " + circleNum + " |");
-            writer.WriteLine("|>! Race : |3< " + raceName + " |>! Gender : |< " + genderName + " |>! Age : |< " + ageNum + " |");
-            writer.WriteLine("|>! Hair : |3< " + hairName + " |>! Skin : |< " + skinName + " |>! Eyes : |< " + eyesName + " |");
-            writer.WriteLine("|>! Height : |5< " + heightNum + " |>! Weight : |< " + weightNum + " |");
-            writer.WriteLine("|>! POB : |2< " + pobName + " |>! Residence : |2< " +resName + " |>! Passion : |< " + passionName + " |");
-            writer.WriteLine("|>! Language(s) Spoken |3< " + lSpokenName + " |>! Language(s) Written |3< " + lWrittenName + " |");
-            writer.WriteLine("|8^ |");
-            writer.WriteLine("|>! Attribute |^! Base Value |^! LP Inc. |^! Current |^! Step |^! Action Dice  |2^! Initiative |");
-            writer.WriteLine("|>! Dexterity  |^ " + dexNum + " |^ " + dexLPinc + " |^ " + dexCurNum + " |^ " + dexStepNum + " |^ " + dexActDieNum + " |^! Step |^! Action Dice |");
-            writer.WriteLine("|>! Strength   |^ " + strNum + " |^ " + strLPinc + " |^ " + strCurNum + " |^ " + strStepNum + " |^ " + strActDieNum + " |^ " + initStepNum + " |^ " + initActDie + " |");
-            writer.WriteLine("|>! Toughness  |^ " + touNum + " |^ " + touLPinc + " |^ " + touCurNum + " |^ " + touStepNum + " |^ " + touActDieNum + " |2^! Defense Ratings |");
-            writer.WriteLine("|>! Perception |^ " + perNum + " |^ " + perLPinc + " |^ " + perCurNum + " |^ " + perStepNum + " |^ " + perActDieNum + " |>! Physical | " + phyDefNum + " |");
-            writer.WriteLine("|>! Willpower  |^ " + wilNum + " |^ " + wilLPinc + " |^ " + wilCurNum + " |^ " + wilStepNum + " |^ " + wilActDieNum + " |>! Mystical | " + mysDefNum + " |");
-            writer.WriteLine("|>! Charisma   |^ " + chaNum + " |^ " + chaLPinc + " |^ " + chaCurNum + " |^ " + chaStepNum + " |^ " + chaActDieNum + " |>! Social   | " + socDefNum + " |");
-            writer.WriteLine("|8^ |");
-            writer.WriteLine("|1.3 |6^! Characteristics |1.3 |");
-            writer.WriteLine(" |^! Movement |^! Carry  |^3! Karma - Current |^! Karma - Max |");
-            writer.WriteLine(" |^ " + movNum + " |^ " + carryNum + " |^3 " + karmaCurNum + " |^ " + karmaMaxNum + " |");
-            writer.WriteLine("|8^ |");
-            writer.WriteLine("|1.10 |3^! Health |3^! Armor Ratings |1.10 |");
-            writer.WriteLine(" |3^! Recovery                          |>! Armor |2< " + armorName + " |");
-            writer.WriteLine(" |^! Tests/Day |^! Step |^! Action Dice |2.1 |^! Defl.Bonus |");
-            writer.WriteLine(" |^ " + recovTestNum + " |^ " + recovStepNum + " |^ " + recovActDieNum + " |>! Shield |< " + shieldName + " |^ " + deflectBonusNum + " |");
-            writer.WriteLine(" |3^! Unconciousness           |2>! Physical Armor |^ " + phyArmNum + " |");
-            writer.WriteLine(" |^! Base  |^! Adj. |^! Current |2>! Mystical Armor |^ 2|");
-            writer.WriteLine(" |^ " + uncBaseNum + " |^ " + uncAdjNum + " |^ " + uncCurNum + " |2>! Current Damage |^ " + dmgCurNum + " |");
-            writer.WriteLine(" |3^! Death                     |3^! Wounds |");
-            writer.WriteLine(" |^! Base  |^! Adj. |^! Current |^!Number of |^! Threshold |! Penalty |");
-            writer.WriteLine(" |^ " + deathBaseNum + " |^ " + deathAdjNum + " |^ " + deathCurNum + " |^ " + woundCurNum + " |^ " + woundThreshNum + "  |^ " + woundPenNum + " |");
-            writer.WriteLine("|8^ |");
-            writer.Close();
-            // Saving the sheet in plaintext to make entry faster, ie not having to redo all of the typing each time.
-            savePlainText();
-            MessageBox.Show("Your character has been saved to the following file:\n\n\n" + @workingFolder + @"\" + workingFilename);
-        }
-
         private void savePlainText()
         {
             FileStream ptfs = new FileStream(@workingFolder + @"\" + plainTextFile, FileMode.OpenOrCreate, FileAccess.Write);
@@ -248,7 +203,63 @@ namespace rpolCS
             }
 
         }
+
+        private void saveButton_Click(object sender, EventArgs e)
+        {
+            FileStream fs = new FileStream(@workingFolder + @"\" + workingFilename, FileMode.OpenOrCreate, FileAccess.Write);
+            StreamWriter writer = new StreamWriter(fs);
+            writer.WriteLine("|8 Earthdawn Character Sheet v2.2  |");
+            writer.WriteLine("|--------------------------------|");
+            writer.WriteLine("|>! Name : |7< " + charName + " |");
+            writer.WriteLine("|>! Discipline : |5< " + discName + " |>! Circle : | " + circleNum + " |");
+            writer.WriteLine("|>! Race : |3< " + raceName + " |>! Gender : |< " + genderName + " |>! Age : |< " + ageNum + " |");
+            writer.WriteLine("|>! Hair : |3< " + hairName + " |>! Skin : |< " + skinName + " |>! Eyes : |< " + eyesName + " |");
+            writer.WriteLine("|>! Height : |5< " + heightNum + " |>! Weight : |< " + weightNum + " |");
+            writer.WriteLine("|>! POB : |2< " + pobName + " |>! Residence : |2< " + resName + " |>! Passion : |< " + passionName + " |");
+            writer.WriteLine("|>! Language(s) Spoken |3< " + lSpokenName + " |>! Language(s) Written |3< " + lWrittenName + " |");
+            writer.WriteLine("|8^ |");
+            writer.WriteLine("|>! Attribute |^! Base Value |^! LP Inc. |^! Current |^! Step |^! Action Dice  |2^! Initiative |");
+            writer.WriteLine("|>! Dexterity  |^ " + dexNum + " |^ " + dexLPinc + " |^ " + dexCurNum + " |^ " + dexStepNum + " |^ " + dexActDieNum + " |^! Step |^! Action Dice |");
+            writer.WriteLine("|>! Strength   |^ " + strNum + " |^ " + strLPinc + " |^ " + strCurNum + " |^ " + strStepNum + " |^ " + strActDieNum + " |^ " + initStepNum + " |^ " + initActDie + " |");
+            writer.WriteLine("|>! Toughness  |^ " + touNum + " |^ " + touLPinc + " |^ " + touCurNum + " |^ " + touStepNum + " |^ " + touActDieNum + " |2^! Defense Ratings |");
+            writer.WriteLine("|>! Perception |^ " + perNum + " |^ " + perLPinc + " |^ " + perCurNum + " |^ " + perStepNum + " |^ " + perActDieNum + " |>! Physical | " + phyDefNum + " |");
+            writer.WriteLine("|>! Willpower  |^ " + wilNum + " |^ " + wilLPinc + " |^ " + wilCurNum + " |^ " + wilStepNum + " |^ " + wilActDieNum + " |>! Mystical | " + mysDefNum + " |");
+            writer.WriteLine("|>! Charisma   |^ " + chaNum + " |^ " + chaLPinc + " |^ " + chaCurNum + " |^ " + chaStepNum + " |^ " + chaActDieNum + " |>! Social   | " + socDefNum + " |");
+            writer.WriteLine("|8^ |");
+            writer.WriteLine("|1.3 |6^! Characteristics |1.3 |");
+            writer.WriteLine(" |^! Movement |^! Carry  |^3! Karma - Current |^! Karma - Max |");
+            writer.WriteLine(" |^ " + movNum + " |^ " + carryNum + " |^3 " + karmaCurNum + " |^ " + karmaMaxNum + " |");
+            writer.WriteLine("|8^ |");
+            writer.WriteLine("|1.10 |3^! Health |3^! Armor Ratings |1.10 |");
+            writer.WriteLine(" |3^! Recovery                          |>! Armor |2< " + armorName + " |");
+            writer.WriteLine(" |^! Tests/Day |^! Step |^! Action Dice |2.1 |^! Defl.Bonus |");
+            writer.WriteLine(" |^ " + recovTestNum + " |^ " + recovStepNum + " |^ " + recovActDieNum + " |>! Shield |< " + shieldName + " |^ " + deflectBonusNum + " |");
+            writer.WriteLine(" |3^! Unconciousness           |2>! Physical Armor |^ " + phyArmNum + " |");
+            writer.WriteLine(" |^! Base  |^! Adj. |^! Current |2>! Mystical Armor |^ 2|");
+            writer.WriteLine(" |^ " + uncBaseNum + " |^ " + uncAdjNum + " |^ " + uncCurNum + " |2>! Current Damage |^ " + dmgCurNum + " |");
+            writer.WriteLine(" |3^! Death                     |3^! Wounds |");
+            writer.WriteLine(" |^! Base  |^! Adj. |^! Current |^!Number of |^! Threshold |! Penalty |");
+            writer.WriteLine(" |^ " + deathBaseNum + " |^ " + deathAdjNum + " |^ " + deathCurNum + " |^ " + woundCurNum + " |^ " + woundThreshNum + "  |^ " + woundPenNum + " |");
+            writer.WriteLine("|8^ |");
+            writer.Close();
+            // Saving the sheet in plaintext to make entry faster, ie not having to redo all of the typing each time.
+            savePlainText();
+            MessageBox.Show("Your character has been saved to the following file:\n\n\n" + @workingFolder + @"\" + workingFilename);
+        }
+
         #region //Finished stuff
+        private void fileNameBox_TextChanged(object sender, EventArgs e)
+        {
+            workingFilename = fileNameBox.Text + @".txt";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            plainTextFile = fileNameBox.Text + @"plaintext.txt";
+            readPlainText();
+            MessageBox.Show("Your character has been reloaded.  Happy editing!");
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             DialogResult result = folderBrowserDialog1.ShowDialog();
@@ -258,6 +269,7 @@ namespace rpolCS
             }
             workingPath = @workingFolder + workingFilename;
         }
+        #endregion 
 
         private void nameBox_TextChanged(object sender, EventArgs e)
         {
@@ -269,24 +281,14 @@ namespace rpolCS
             discName = disciplineBox.Text;
         }
 
+        private void circleBox_TextChanged(object sender, EventArgs e)
+        {
+            circleNum = circleBox.Text;
+        }
+
         private void raceBox_TextChanged(object sender, EventArgs e)
         {
             raceName = raceBox.Text;
-        }
-
-        private void hairBox_TextChanged(object sender, EventArgs e)
-        {
-            hairName = hairBox.Text;
-        }
-
-        private void pobBox_TextChanged(object sender, EventArgs e)
-        {
-            pobName = pobBox.Text;
-        }
-
-        private void lSpokenBox_TextChanged(object sender, EventArgs e)
-        {
-            lSpokenName = lSpokenBox.Text;
         }
 
         private void genderBox_TextChanged(object sender, EventArgs e)
@@ -294,24 +296,19 @@ namespace rpolCS
             genderName = genderBox.Text;
         }
 
-        private void skinBox_TextChanged(object sender, EventArgs e)
-        {
-            skinName = skinBox.Text;
-        }
-
-        private void lWrittenBox_TextChanged(object sender, EventArgs e)
-        {
-            lWrittenName = lWrittenBox.Text;
-        }
-
-        private void circleBox_TextChanged(object sender, EventArgs e)
-        {
-            circleNum = circleBox.Text;
-        }
-
         private void ageBox_TextChanged(object sender, EventArgs e)
         {
             ageNum = ageBox.Text;
+        }
+
+        private void hairBox_TextChanged(object sender, EventArgs e)
+        {
+            hairName = hairBox.Text;
+        }
+
+        private void skinBox_TextChanged(object sender, EventArgs e)
+        {
+            skinName = skinBox.Text;
         }
 
         private void eyesBox_TextChanged(object sender, EventArgs e)
@@ -319,9 +316,24 @@ namespace rpolCS
             eyesName = eyesBox.Text;
         }
 
+        private void heightBox_TextChanged(object sender, EventArgs e)
+        {
+            heightNum = heightBox.Text;
+        }
+
         private void weightBox_TextChanged(object sender, EventArgs e)
         {
             weightNum = weightBox.Text;
+        }
+
+        private void pobBox_TextChanged(object sender, EventArgs e)
+        {
+            pobName = pobBox.Text;
+        }
+
+        private void resBox_TextChanged(object sender, EventArgs e)
+        {
+            resName = resBox.Text;
         }
 
         private void passionBox_TextChanged(object sender, EventArgs e)
@@ -329,14 +341,14 @@ namespace rpolCS
             passionName = passionBox.Text;
         }
 
-        private void heightBox_TextChanged(object sender, EventArgs e)
+        private void lSpokenBox_TextChanged(object sender, EventArgs e)
         {
-            heightNum = heightBox.Text;
+            lSpokenName = lSpokenBox.Text;
         }
 
-        private void resNameBox_TextChanged(object sender, EventArgs e)
+        private void lWrittenBox_TextChanged(object sender, EventArgs e)
         {
-            resName = resBox.Text; 
+            lWrittenName = lWrittenBox.Text;
         }
 
         private void dexBaseBox_TextChanged(object sender, EventArgs e)
@@ -362,279 +374,6 @@ namespace rpolCS
         private void dexADbox_TextChanged(object sender, EventArgs e)
         {
             dexActDieNum = dexADbox.Text;
-        }
-
-        private void strBaseBox_TextChanged(object sender, EventArgs e)
-        {
-            strNum = strBaseBox.Text;
-        }
-
-        private void strLPbox_TextChanged(object sender, EventArgs e)
-        {
-            strLPinc = strLPbox.Text;
-        }
-
-        private void strCurBox_TextChanged(object sender, EventArgs e)
-        {
-            strCurNum = strCurBox.Text;
-        }
-
-        private void strStepBox_TextChanged(object sender, EventArgs e)
-        {
-            strStepNum = strStepBox.Text;
-        }
-
-        private void strADbox_TextChanged(object sender, EventArgs e)
-        {
-            strActDieNum = strADbox.Text;
-        }
-
-        private void touBaseBox_TextChanged(object sender, EventArgs e)
-        {
-            touNum = touBaseBox.Text;
-        }
-
-        private void touLPbox_TextChanged(object sender, EventArgs e)
-        {
-            touLPinc = touLPbox.Text;
-        }
-
-        private void touCurBox_TextChanged(object sender, EventArgs e)
-        {
-            touCurNum = touCurBox.Text;
-        }
-
-        private void touStepBox_TextChanged(object sender, EventArgs e)
-        {
-            touStepNum = touStepBox.Text;
-        }
-
-        private void touADbox_TextChanged(object sender, EventArgs e)
-        {
-            touActDieNum = touADbox.Text;
-        }
-
-        private void perBaseBox_TextChanged(object sender, EventArgs e)
-        {
-            perNum = perBaseBox.Text;
-        }
-
-        private void perLPbox_TextChanged(object sender, EventArgs e)
-        {
-            perLPinc = perLPbox.Text;
-        }
-
-        private void perCurBox_TextChanged(object sender, EventArgs e)
-        {
-            perCurNum = perCurBox.Text;
-        }
-
-        private void perStepBox_TextChanged(object sender, EventArgs e)
-        {
-            perStepNum = perStepBox.Text;
-        }
-
-        private void perADbox_TextChanged(object sender, EventArgs e)
-        {
-            perActDieNum = perADbox.Text;
-        }
-
-        private void wilBaseBox_TextChanged(object sender, EventArgs e)
-        {
-            wilNum = wilBaseBox.Text;
-        }
-
-        private void wilLPbox_TextChanged(object sender, EventArgs e)
-        {
-            wilLPinc = wilLPbox.Text;
-        }
-
-        private void wilCurBox_TextChanged(object sender, EventArgs e)
-        {
-            wilCurNum = wilCurBox.Text;
-        }
-
-        private void wilStepBox_TextChanged(object sender, EventArgs e)
-        {
-            wilStepNum = wilStepBox.Text;
-        }
-
-        private void wilADbox_TextChanged(object sender, EventArgs e)
-        {
-            wilActDieNum = wilADbox.Text;
-        }
-
-        private void chaBaseBox_TextChanged(object sender, EventArgs e)
-        {
-            chaNum = chaBaseBox.Text;
-        }
-
-        private void chaLPbox_TextChanged(object sender, EventArgs e)
-        {
-            chaLPinc = chaLPbox.Text;
-        }
-
-        private void chaCurBox_TextChanged(object sender, EventArgs e)
-        {
-            chaCurNum = chaCurBox.Text;
-        }
-
-        private void chaStepBox_TextChanged(object sender, EventArgs e)
-        {
-            chaStepNum = chaStepBox.Text;
-        }
-
-        private void chaADbox_TextChanged(object sender, EventArgs e)
-        {
-            chaActDieNum = chaADbox.Text;
-        }
-
-        private void initStepBox_TextChanged(object sender, EventArgs e)
-        {
-            initStepNum = initStepBox.Text;
-        }
-
-        private void initADbox_TextChanged(object sender, EventArgs e)
-        {
-            initActDie = initADbox.Text;
-        }
-
-        private void phyBox_TextChanged(object sender, EventArgs e)
-        {
-            phyDefNum = phyBox.Text;
-        }
-
-        private void mysBox_TextChanged(object sender, EventArgs e)
-        {
-            mysDefNum = mysBox.Text;
-        }
-
-        private void SocBox_TextChanged(object sender, EventArgs e)
-        {
-            socDefNum = SocBox.Text;
-        }
-
-        private void movBox_TextChanged(object sender, EventArgs e)
-        {
-            movNum = movBox.Text;
-        }
-
-        private void carryBox_TextChanged(object sender, EventArgs e)
-        {
-            carryNum = carryBox.Text;
-        }
-
-        private void KarmaCurBox_TextChanged(object sender, EventArgs e)
-        {
-            karmaCurNum = karmaCurBox.Text;
-        }
-
-        private void karmaMaxBox_TextChanged(object sender, EventArgs e)
-        {
-            karmaMaxNum = karmaMaxBox.Text;
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            workingFilename = fileNameBox.Text + @".txt";
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            plainTextFile = fileNameBox.Text + @"plaintext.txt";
-            readPlainText();
-            MessageBox.Show("Your character has been reloaded.  Happy editing!");
-        }
-        
-        private void recovTestBox_TextChanged(object sender, EventArgs e)
-        {
-            recovTestNum = recovTestBox.Text;
-        }
-
-        private void recovStepBox_TextChanged(object sender, EventArgs e)
-        {
-            recovStepNum = recovStepBox.Text;
-        }
-
-        private void recovADbox_TextChanged(object sender, EventArgs e)
-        {
-            recovActDieNum = recovADbox.Text;
-        }
-
-        private void unconBaseBox_TextChanged(object sender, EventArgs e)
-        {
-            uncBaseNum = unconBaseBox.Text;
-        }
-
-        private void unconAdjBox_TextChanged(object sender, EventArgs e)
-        {
-            uncAdjNum = unconAdjBox.Text;
-        }
-
-        private void unconCurBox_TextChanged(object sender, EventArgs e)
-        {
-            uncCurNum = unconCurBox.Text;
-        }
-
-        private void deathBaseBox_TextChanged(object sender, EventArgs e)
-        {
-            deathBaseNum = deathBaseBox.Text;
-        }
-
-        private void deathAdjBox_TextChanged(object sender, EventArgs e)
-        {
-            deathAdjNum = deathAdjBox.Text;
-        }
-
-        private void deathCurBox_TextChanged(object sender, EventArgs e)
-        {
-            deathCurNum = deathCurBox.Text;
-        }
-#endregion
-
-        private void armorBox_TextChanged(object sender, EventArgs e)
-        {
-            armorName = armorBox.Text;
-        }
-
-        private void shieldBox_TextChanged(object sender, EventArgs e)
-        {
-            shieldName = shieldBox.Text;
-        }
-
-        private void phyArmorBox_TextChanged(object sender, EventArgs e)
-        {
-            phyArmNum = phyArmorBox.Text;
-        }
-
-        private void mysArmorBox_TextChanged(object sender, EventArgs e)
-        {
-            mysDefNum = mysArmorBox.Text;
-        }
-
-        private void curDmgBox_TextChanged(object sender, EventArgs e)
-        {
-            dmgCurNum = curDmgBox.Text;
-        }
-
-        private void woundCurBox_TextChanged(object sender, EventArgs e)
-        {
-            woundCurNum = woundCurBox.Text;
-        }
-
-        private void woundThreshBox_TextChanged(object sender, EventArgs e)
-        {
-            woundThreshNum = woundThreshBox.Text;
-        }
-
-        private void woundPenBox_TextChanged(object sender, EventArgs e)
-        {
-            woundPenNum = woundPenBox.Text;
-        }
-
-        private void deflectBonusBox_TextChanged(object sender, EventArgs e)
-        {
-            deflectBonusNum = deflectBonusBox.Text;
         }
     }
 }
