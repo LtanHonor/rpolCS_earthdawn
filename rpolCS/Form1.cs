@@ -25,8 +25,11 @@ namespace rpolCS
                perActDieNum, phyDefNum, wilNum, wilLPinc, wilCurNum, wilStepNum, wilActDieNum, mysDefNum,
                chaNum, chaLPinc, chaCurNum, chaStepNum, chaActDieNum, socDefNum, movNum, carryNum, karmaCurNum,
                karmaMaxNum, armorName, recovTestNum, recovStepNum, recovActDieNum, shieldName, deflectBonusNum, phyArmNum, 
-               mysArmNum, uncBaseNum, uncAdjNum, uncCurNum, dmgCurNum, deathBaseNum, deathAdjNum, deathCurNum, 
-               woundCurNum, woundThreshNum, woundPenNum;
+               uncBaseNum, uncAdjNum, uncCurNum, dmgCurNum, deathBaseNum, deathAdjNum, deathCurNum, 
+               woundCurNum, woundThreshNum, woundPenNum, numOfTalents_s, talentName01, talentName02, talentName03, talentName04,
+               talentName05, talentName06, talentName07, talentName08, talentName09, talentName10, talentName11, talentName12;
+        string talentName13, talentName14, talentName15;
+        int numOfTalents_i;
 
 
         public Form1()
@@ -111,6 +114,7 @@ namespace rpolCS
             ptwriter.WriteLine(woundCurNum);
             ptwriter.WriteLine(woundThreshNum);
             ptwriter.WriteLine(woundPenNum);
+            ptwriter.WriteLine(talentName01);
             ptwriter.Close();
         }
 
@@ -194,6 +198,7 @@ namespace rpolCS
                     woundCurBox.Text = woundCurNum = ptReader.ReadLine();
                     woundThreshBox.Text = woundThreshNum = ptReader.ReadLine();
                     woundPenBox.Text = woundPenNum = ptReader.ReadLine();
+                    talentNameBox01.Text = talentName01 = ptReader.ReadLine();
                     ptReader.Close();
                 }
             }
@@ -235,11 +240,51 @@ namespace rpolCS
             writer.WriteLine(" |^! Tests/Day |^! Step |^! Action Dice |2.1 |^! Defl.Bonus |");
             writer.WriteLine(" |^ " + recovTestNum + " |^ " + recovStepNum + " |^ " + recovActDieNum + " |>! Shield |< " + shieldName + " |^ " + deflectBonusNum + " |");
             writer.WriteLine(" |3^! Unconciousness           |2>! Physical Armor |^ " + phyArmNum + " |");
-            writer.WriteLine(" |^! Base  |^! Adj. |^! Current |2>! Mystical Armor |^ " + mysArmNum + " |");
+            writer.WriteLine(" |^! Base  |^! Adj. |^! Current |2>! Mystical Armor |^ " + mysDefNum + " |");
             writer.WriteLine(" |^ " + uncBaseNum + " |^ " + uncAdjNum + " |^ " + uncCurNum + " |2>! Current Damage |^ " + dmgCurNum + " |");
             writer.WriteLine(" |3^! Death                     |3^! Wounds |");
             writer.WriteLine(" |^! Base  |^! Adj. |^! Current |^!Number of |^! Threshold |! Penalty |");
             writer.WriteLine(" |^ " + deathBaseNum + " |^ " + deathAdjNum + " |^ " + deathCurNum + " |^ " + woundCurNum + " |^ " + woundThreshNum + "  |^ " + woundPenNum + " |");
+            writer.WriteLine("|8^ |");
+            writer.WriteLine("|8^! Discipline Talents |");
+            writer.WriteLine("|8<! Initiate/Novice    |");
+            writer.WriteLine("|2<! Talent Name |^! Action  |^! Strain |^! Attribute |^! + Rank |^!  = Step |^! Action Dice|");
+            writer.WriteLine("|2< " + talentName01 + " |^ actionType01 |^ strainYN01  |^ attName01 |^ rankNum01 |^ stepNum01 | ADnum01 |");
+            if (numOfTalents_i > 1)
+                writer.WriteLine("|2< talentName02 |^ actionType02 |^ strainYN02  |^ attName02 |^ rankNum02 |^ stepNum02 | ADnum02 |");
+            if (numOfTalents_i > 2)
+                writer.WriteLine("|2< talentName03 |^ actionType03 |^ strainYN03  |^ attName03 |^ rankNum03 |^ stepNum03 | ADnum03 |");
+            if (numOfTalents_i > 3)
+                writer.WriteLine("|2< talentName04 |^ actionType04 |^ strainYN04  |^ attName04 |^ rankNum04 |^ stepNum04 | ADnum04 |");
+            if (numOfTalents_i > 4)
+                writer.WriteLine("|2< talentName05 |^ actionType05 |^ strainYN05  |^ attName05 |^ rankNum05 |^ stepNum05 | ADnum05 |");
+            if (numOfTalents_i > 5)
+                writer.WriteLine("|2< talentName06 |^ actionType06 |^ strainYN06  |^ attName06 |^ rankNum06 |^ stepNum06 | ADnum06 |");
+            if (numOfTalents_i > 6)
+                writer.WriteLine("|2< talentName07 |^ actionType07 |^ strainYN07  |^ attName07 |^ rankNum07 |^ stepNum07 | ADnum07 |");
+            if (numOfTalents_i > 7)
+                writer.WriteLine("|2< talentName08 |^ actionType08 |^ strainYN08  |^ attName08 |^ rankNum08 |^ stepNum08 | ADnum08 |");
+            if (numOfTalents_i > 8)
+                writer.WriteLine("|2< talentName09 |^ actionType09 |^ strainYN09  |^ attName09 |^ rankNum09 |^ stepNum09 | ADnum09 |");
+            if (numOfTalents_i > 9)
+                writer.WriteLine("|2< talentName10 |^ actionType10 |^ strainYN10  |^ attName10 |^ rankNum10 |^ stepNum10 | ADnum10 |");
+            if (numOfTalents_i > 10)
+                writer.WriteLine("|2< talentName11 |^ actionType11 |^ strainYN11  |^ attName11 |^ rankNum11 |^ stepNum11 | ADnum11 |");
+            if (numOfTalents_i > 11)
+                writer.WriteLine("|2< talentName12 |^ actionType12 |^ strainYN12  |^ attName12 |^ rankNum12 |^ stepNum12 | ADnum12 |");
+            if (numOfTalents_i > 12)
+                writer.WriteLine("|2< talentName13 |^ actionType13 |^ strainYN13  |^ attName13 |^ rankNum13 |^ stepNum13 | ADnum13 |");
+            if (numOfTalents_i > 13)
+                writer.WriteLine("|2< talentName14 |^ actionType14 |^ strainYN14  |^ attName14 |^ rankNum14 |^ stepNum14 | ADnum14 |");
+            if (numOfTalents_i > 14)
+                writer.WriteLine("|2< talentName15 |^ actionType15 |^ strainYN15  |^ attName15 |^ rankNum15 |^ stepNum15 | ADnum15 |");
+            writer.WriteLine("|2< Durability |6^ Add 5 |");
+            writer.WriteLine("|^8 |");
+            writer.WriteLine("|8^! Other Talents |");
+            writer.WriteLine("|8<! Initiate/Novice    |");
+            writer.WriteLine("|<! Talent Name |^! Karma |^! Action  |^! Strain |^! Attribute |^! + Rank |^! = Step |^! Action Dice|");
+            writer.WriteLine("|< Melee Weapons      |^ No     |^ Standard  |^ 0       |^ 7 |^ 3 |^ 10 | 2d8 |");
+            writer.WriteLine("|< Parry              |^ No     |^ Standard  |^ 1       |^ 7 |^ 1 |^  9 | d8 + d6 |");
             writer.WriteLine("|8^ |");
             writer.Close();
             // Saving the sheet in plaintext to make entry faster, ie not having to redo all of the typing each time.
@@ -635,5 +680,15 @@ namespace rpolCS
             woundPenNum = woundPenBox.Text;
         }
 #endregion
+
+        private void numOfTalentsBox_TextChanged(object sender, EventArgs e)
+        {
+            numOfTalents_i = Convert.ToInt32(numOfTalentsBox.Text);
+        }
+
+        private void talentNameBox01_TextChanged(object sender, EventArgs e)
+        {
+            talentName01 = talentNameBox01.Text;
+        }
     }
 }
