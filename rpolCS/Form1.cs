@@ -115,6 +115,7 @@ namespace rpolCS
             ptwriter.WriteLine(woundThreshNum);
             ptwriter.WriteLine(woundPenNum);
             ptwriter.WriteLine(talentName01);
+            ptwriter.WriteLine(talentName02);
             ptwriter.Close();
         }
 
@@ -199,6 +200,7 @@ namespace rpolCS
                     woundThreshBox.Text = woundThreshNum = ptReader.ReadLine();
                     woundPenBox.Text = woundPenNum = ptReader.ReadLine();
                     talentNameBox01.Text = talentName01 = ptReader.ReadLine();
+                    talentNameBox02.Text = talentName02 = ptReader.ReadLine();
                     ptReader.Close();
                 }
             }
@@ -251,7 +253,7 @@ namespace rpolCS
             writer.WriteLine("|2<! Talent Name |^! Action  |^! Strain |^! Attribute |^! + Rank |^!  = Step |^! Action Dice|");
             writer.WriteLine("|2< " + talentName01 + " |^ actionType01 |^ strainYN01  |^ attName01 |^ rankNum01 |^ stepNum01 | ADnum01 |");
             if (numOfTalents_i > 1)
-                writer.WriteLine("|2< talentName02 |^ actionType02 |^ strainYN02  |^ attName02 |^ rankNum02 |^ stepNum02 | ADnum02 |");
+                writer.WriteLine("|2<  " + talentName02 + " |^ actionType02 |^ strainYN02  |^ attName02 |^ rankNum02 |^ stepNum02 | ADnum02 |");
             if (numOfTalents_i > 2)
                 writer.WriteLine("|2< talentName03 |^ actionType03 |^ strainYN03  |^ attName03 |^ rankNum03 |^ stepNum03 | ADnum03 |");
             if (numOfTalents_i > 3)
@@ -690,5 +692,11 @@ namespace rpolCS
         {
             talentName01 = talentNameBox01.Text;
         }
+
+        private void talentNameBox02_TextChanged(object sender, EventArgs e)
+        {
+            talentName02 = talentNameBox02.Text;
+        }
+
     }
 }
