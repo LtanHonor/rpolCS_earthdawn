@@ -179,106 +179,106 @@
             this.textBox100 = new System.Windows.Forms.TextBox();
             this.textBox101 = new System.Windows.Forms.TextBox();
             this.textBox102 = new System.Windows.Forms.TextBox();
-            this.textBox103 = new System.Windows.Forms.TextBox();
-            this.textBox104 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox15 = new System.Windows.Forms.TextBox();
+            this.talentActionBox15 = new System.Windows.Forms.TextBox();
             this.talentNameBox15 = new System.Windows.Forms.TextBox();
             this.textBox92 = new System.Windows.Forms.TextBox();
             this.textBox93 = new System.Windows.Forms.TextBox();
             this.textBox94 = new System.Windows.Forms.TextBox();
             this.textBox95 = new System.Windows.Forms.TextBox();
-            this.textBox96 = new System.Windows.Forms.TextBox();
-            this.textBox97 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox14 = new System.Windows.Forms.TextBox();
+            this.talentActionBox14 = new System.Windows.Forms.TextBox();
             this.talentNameBox14 = new System.Windows.Forms.TextBox();
             this.textBox85 = new System.Windows.Forms.TextBox();
             this.textBox86 = new System.Windows.Forms.TextBox();
             this.textBox87 = new System.Windows.Forms.TextBox();
             this.textBox88 = new System.Windows.Forms.TextBox();
-            this.textBox89 = new System.Windows.Forms.TextBox();
-            this.textBox90 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox13 = new System.Windows.Forms.TextBox();
+            this.talentActionBox13 = new System.Windows.Forms.TextBox();
             this.talentNameBox13 = new System.Windows.Forms.TextBox();
             this.textBox78 = new System.Windows.Forms.TextBox();
             this.textBox79 = new System.Windows.Forms.TextBox();
             this.textBox80 = new System.Windows.Forms.TextBox();
             this.textBox81 = new System.Windows.Forms.TextBox();
-            this.textBox82 = new System.Windows.Forms.TextBox();
-            this.textBox83 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox12 = new System.Windows.Forms.TextBox();
+            this.talentActionBox12 = new System.Windows.Forms.TextBox();
             this.talentNameBox12 = new System.Windows.Forms.TextBox();
             this.textBox71 = new System.Windows.Forms.TextBox();
             this.textBox72 = new System.Windows.Forms.TextBox();
             this.textBox73 = new System.Windows.Forms.TextBox();
             this.textBox74 = new System.Windows.Forms.TextBox();
-            this.textBox75 = new System.Windows.Forms.TextBox();
-            this.textBox76 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox11 = new System.Windows.Forms.TextBox();
+            this.talentActionBox11 = new System.Windows.Forms.TextBox();
             this.talentNameBox11 = new System.Windows.Forms.TextBox();
             this.textBox64 = new System.Windows.Forms.TextBox();
             this.textBox65 = new System.Windows.Forms.TextBox();
             this.textBox66 = new System.Windows.Forms.TextBox();
             this.textBox67 = new System.Windows.Forms.TextBox();
-            this.textBox68 = new System.Windows.Forms.TextBox();
-            this.textBox69 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox10 = new System.Windows.Forms.TextBox();
+            this.talentActionBox10 = new System.Windows.Forms.TextBox();
             this.talentNameBox10 = new System.Windows.Forms.TextBox();
             this.textBox57 = new System.Windows.Forms.TextBox();
             this.textBox58 = new System.Windows.Forms.TextBox();
             this.textBox59 = new System.Windows.Forms.TextBox();
             this.textBox60 = new System.Windows.Forms.TextBox();
-            this.textBox61 = new System.Windows.Forms.TextBox();
-            this.textBox62 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox09 = new System.Windows.Forms.TextBox();
+            this.talentActionBox09 = new System.Windows.Forms.TextBox();
             this.talentNameBox09 = new System.Windows.Forms.TextBox();
             this.textBox50 = new System.Windows.Forms.TextBox();
             this.textBox51 = new System.Windows.Forms.TextBox();
             this.textBox52 = new System.Windows.Forms.TextBox();
             this.textBox53 = new System.Windows.Forms.TextBox();
-            this.textBox54 = new System.Windows.Forms.TextBox();
-            this.textBox55 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox08 = new System.Windows.Forms.TextBox();
+            this.talentActionBox08 = new System.Windows.Forms.TextBox();
             this.talentNameBox08 = new System.Windows.Forms.TextBox();
             this.textBox43 = new System.Windows.Forms.TextBox();
             this.textBox44 = new System.Windows.Forms.TextBox();
             this.textBox45 = new System.Windows.Forms.TextBox();
             this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox07 = new System.Windows.Forms.TextBox();
+            this.talentActionBox07 = new System.Windows.Forms.TextBox();
             this.talentNameBox07 = new System.Windows.Forms.TextBox();
             this.textBox36 = new System.Windows.Forms.TextBox();
             this.textBox37 = new System.Windows.Forms.TextBox();
             this.textBox38 = new System.Windows.Forms.TextBox();
             this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox06 = new System.Windows.Forms.TextBox();
+            this.talentActionBox06 = new System.Windows.Forms.TextBox();
             this.talentNameBox06 = new System.Windows.Forms.TextBox();
             this.textBox29 = new System.Windows.Forms.TextBox();
             this.textBox30 = new System.Windows.Forms.TextBox();
             this.textBox31 = new System.Windows.Forms.TextBox();
             this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox05 = new System.Windows.Forms.TextBox();
+            this.talentActionBox05 = new System.Windows.Forms.TextBox();
             this.talentNameBox05 = new System.Windows.Forms.TextBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox04 = new System.Windows.Forms.TextBox();
+            this.talentActionBox04 = new System.Windows.Forms.TextBox();
             this.talentNameBox04 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox03 = new System.Windows.Forms.TextBox();
+            this.talentActionBox03 = new System.Windows.Forms.TextBox();
             this.talentNameBox03 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox02 = new System.Windows.Forms.TextBox();
+            this.talentActionBox02 = new System.Windows.Forms.TextBox();
             this.talentNameBox02 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.talentStrainBox01 = new System.Windows.Forms.TextBox();
+            this.talentActionBox01 = new System.Windows.Forms.TextBox();
             this.talentNameBox01 = new System.Windows.Forms.TextBox();
             this.label76 = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
@@ -293,13 +293,25 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.miscNoteBox = new System.Windows.Forms.TextBox();
+            this.label82 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label81 = new System.Windows.Forms.Label();
+            this.paragrahNumberBox = new System.Windows.Forms.TextBox();
+            this.label80 = new System.Windows.Forms.Label();
+            this.charHistoryBox = new System.Windows.Forms.TextBox();
+            this.label79 = new System.Windows.Forms.Label();
+            this.charPersonalityBox = new System.Windows.Forms.TextBox();
+            this.label78 = new System.Windows.Forms.Label();
+            this.charAppearanceBox = new System.Windows.Forms.TextBox();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.label77 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -313,7 +325,7 @@
             this.tabControl1.Location = new System.Drawing.Point(7, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(838, 872);
+            this.tabControl1.Size = new System.Drawing.Size(838, 944);
             this.tabControl1.TabIndex = 0;
             this.tabControl1.Tag = "Basic Info";
             // 
@@ -466,7 +478,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(830, 846);
+            this.tabPage1.Size = new System.Drawing.Size(830, 918);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Basic Info";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -1706,106 +1718,106 @@
             this.tabPage2.Controls.Add(this.textBox100);
             this.tabPage2.Controls.Add(this.textBox101);
             this.tabPage2.Controls.Add(this.textBox102);
-            this.tabPage2.Controls.Add(this.textBox103);
-            this.tabPage2.Controls.Add(this.textBox104);
+            this.tabPage2.Controls.Add(this.talentStrainBox15);
+            this.tabPage2.Controls.Add(this.talentActionBox15);
             this.tabPage2.Controls.Add(this.talentNameBox15);
             this.tabPage2.Controls.Add(this.textBox92);
             this.tabPage2.Controls.Add(this.textBox93);
             this.tabPage2.Controls.Add(this.textBox94);
             this.tabPage2.Controls.Add(this.textBox95);
-            this.tabPage2.Controls.Add(this.textBox96);
-            this.tabPage2.Controls.Add(this.textBox97);
+            this.tabPage2.Controls.Add(this.talentStrainBox14);
+            this.tabPage2.Controls.Add(this.talentActionBox14);
             this.tabPage2.Controls.Add(this.talentNameBox14);
             this.tabPage2.Controls.Add(this.textBox85);
             this.tabPage2.Controls.Add(this.textBox86);
             this.tabPage2.Controls.Add(this.textBox87);
             this.tabPage2.Controls.Add(this.textBox88);
-            this.tabPage2.Controls.Add(this.textBox89);
-            this.tabPage2.Controls.Add(this.textBox90);
+            this.tabPage2.Controls.Add(this.talentStrainBox13);
+            this.tabPage2.Controls.Add(this.talentActionBox13);
             this.tabPage2.Controls.Add(this.talentNameBox13);
             this.tabPage2.Controls.Add(this.textBox78);
             this.tabPage2.Controls.Add(this.textBox79);
             this.tabPage2.Controls.Add(this.textBox80);
             this.tabPage2.Controls.Add(this.textBox81);
-            this.tabPage2.Controls.Add(this.textBox82);
-            this.tabPage2.Controls.Add(this.textBox83);
+            this.tabPage2.Controls.Add(this.talentStrainBox12);
+            this.tabPage2.Controls.Add(this.talentActionBox12);
             this.tabPage2.Controls.Add(this.talentNameBox12);
             this.tabPage2.Controls.Add(this.textBox71);
             this.tabPage2.Controls.Add(this.textBox72);
             this.tabPage2.Controls.Add(this.textBox73);
             this.tabPage2.Controls.Add(this.textBox74);
-            this.tabPage2.Controls.Add(this.textBox75);
-            this.tabPage2.Controls.Add(this.textBox76);
+            this.tabPage2.Controls.Add(this.talentStrainBox11);
+            this.tabPage2.Controls.Add(this.talentActionBox11);
             this.tabPage2.Controls.Add(this.talentNameBox11);
             this.tabPage2.Controls.Add(this.textBox64);
             this.tabPage2.Controls.Add(this.textBox65);
             this.tabPage2.Controls.Add(this.textBox66);
             this.tabPage2.Controls.Add(this.textBox67);
-            this.tabPage2.Controls.Add(this.textBox68);
-            this.tabPage2.Controls.Add(this.textBox69);
+            this.tabPage2.Controls.Add(this.talentStrainBox10);
+            this.tabPage2.Controls.Add(this.talentActionBox10);
             this.tabPage2.Controls.Add(this.talentNameBox10);
             this.tabPage2.Controls.Add(this.textBox57);
             this.tabPage2.Controls.Add(this.textBox58);
             this.tabPage2.Controls.Add(this.textBox59);
             this.tabPage2.Controls.Add(this.textBox60);
-            this.tabPage2.Controls.Add(this.textBox61);
-            this.tabPage2.Controls.Add(this.textBox62);
+            this.tabPage2.Controls.Add(this.talentStrainBox09);
+            this.tabPage2.Controls.Add(this.talentActionBox09);
             this.tabPage2.Controls.Add(this.talentNameBox09);
             this.tabPage2.Controls.Add(this.textBox50);
             this.tabPage2.Controls.Add(this.textBox51);
             this.tabPage2.Controls.Add(this.textBox52);
             this.tabPage2.Controls.Add(this.textBox53);
-            this.tabPage2.Controls.Add(this.textBox54);
-            this.tabPage2.Controls.Add(this.textBox55);
+            this.tabPage2.Controls.Add(this.talentStrainBox08);
+            this.tabPage2.Controls.Add(this.talentActionBox08);
             this.tabPage2.Controls.Add(this.talentNameBox08);
             this.tabPage2.Controls.Add(this.textBox43);
             this.tabPage2.Controls.Add(this.textBox44);
             this.tabPage2.Controls.Add(this.textBox45);
             this.tabPage2.Controls.Add(this.textBox46);
-            this.tabPage2.Controls.Add(this.textBox47);
-            this.tabPage2.Controls.Add(this.textBox48);
+            this.tabPage2.Controls.Add(this.talentStrainBox07);
+            this.tabPage2.Controls.Add(this.talentActionBox07);
             this.tabPage2.Controls.Add(this.talentNameBox07);
             this.tabPage2.Controls.Add(this.textBox36);
             this.tabPage2.Controls.Add(this.textBox37);
             this.tabPage2.Controls.Add(this.textBox38);
             this.tabPage2.Controls.Add(this.textBox39);
-            this.tabPage2.Controls.Add(this.textBox40);
-            this.tabPage2.Controls.Add(this.textBox41);
+            this.tabPage2.Controls.Add(this.talentStrainBox06);
+            this.tabPage2.Controls.Add(this.talentActionBox06);
             this.tabPage2.Controls.Add(this.talentNameBox06);
             this.tabPage2.Controls.Add(this.textBox29);
             this.tabPage2.Controls.Add(this.textBox30);
             this.tabPage2.Controls.Add(this.textBox31);
             this.tabPage2.Controls.Add(this.textBox32);
-            this.tabPage2.Controls.Add(this.textBox33);
-            this.tabPage2.Controls.Add(this.textBox34);
+            this.tabPage2.Controls.Add(this.talentStrainBox05);
+            this.tabPage2.Controls.Add(this.talentActionBox05);
             this.tabPage2.Controls.Add(this.talentNameBox05);
             this.tabPage2.Controls.Add(this.textBox22);
             this.tabPage2.Controls.Add(this.textBox23);
             this.tabPage2.Controls.Add(this.textBox24);
             this.tabPage2.Controls.Add(this.textBox25);
-            this.tabPage2.Controls.Add(this.textBox26);
-            this.tabPage2.Controls.Add(this.textBox27);
+            this.tabPage2.Controls.Add(this.talentStrainBox04);
+            this.tabPage2.Controls.Add(this.talentActionBox04);
             this.tabPage2.Controls.Add(this.talentNameBox04);
             this.tabPage2.Controls.Add(this.textBox15);
             this.tabPage2.Controls.Add(this.textBox16);
             this.tabPage2.Controls.Add(this.textBox17);
             this.tabPage2.Controls.Add(this.textBox18);
-            this.tabPage2.Controls.Add(this.textBox19);
-            this.tabPage2.Controls.Add(this.textBox20);
+            this.tabPage2.Controls.Add(this.talentStrainBox03);
+            this.tabPage2.Controls.Add(this.talentActionBox03);
             this.tabPage2.Controls.Add(this.talentNameBox03);
             this.tabPage2.Controls.Add(this.textBox8);
             this.tabPage2.Controls.Add(this.textBox9);
             this.tabPage2.Controls.Add(this.textBox10);
             this.tabPage2.Controls.Add(this.textBox11);
-            this.tabPage2.Controls.Add(this.textBox12);
-            this.tabPage2.Controls.Add(this.textBox13);
+            this.tabPage2.Controls.Add(this.talentStrainBox02);
+            this.tabPage2.Controls.Add(this.talentActionBox02);
             this.tabPage2.Controls.Add(this.talentNameBox02);
             this.tabPage2.Controls.Add(this.textBox7);
             this.tabPage2.Controls.Add(this.textBox6);
             this.tabPage2.Controls.Add(this.textBox5);
             this.tabPage2.Controls.Add(this.textBox4);
-            this.tabPage2.Controls.Add(this.textBox3);
-            this.tabPage2.Controls.Add(this.textBox2);
+            this.tabPage2.Controls.Add(this.talentStrainBox01);
+            this.tabPage2.Controls.Add(this.talentActionBox01);
             this.tabPage2.Controls.Add(this.talentNameBox01);
             this.tabPage2.Controls.Add(this.label76);
             this.tabPage2.Controls.Add(this.label75);
@@ -1820,7 +1832,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(830, 846);
+            this.tabPage2.Size = new System.Drawing.Size(830, 918);
             this.tabPage2.TabIndex = 0;
             this.tabPage2.Text = "Talents";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1853,19 +1865,20 @@
             this.textBox102.Size = new System.Drawing.Size(100, 20);
             this.textBox102.TabIndex = 111;
             // 
-            // textBox103
+            // talentStrainBox15
             // 
-            this.textBox103.Location = new System.Drawing.Point(255, 443);
-            this.textBox103.Name = "textBox103";
-            this.textBox103.Size = new System.Drawing.Size(100, 20);
-            this.textBox103.TabIndex = 110;
+            this.talentStrainBox15.Location = new System.Drawing.Point(255, 443);
+            this.talentStrainBox15.Name = "talentStrainBox15";
+            this.talentStrainBox15.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox15.TabIndex = 110;
             // 
-            // textBox104
+            // talentActionBox15
             // 
-            this.textBox104.Location = new System.Drawing.Point(149, 443);
-            this.textBox104.Name = "textBox104";
-            this.textBox104.Size = new System.Drawing.Size(100, 20);
-            this.textBox104.TabIndex = 109;
+            this.talentActionBox15.Location = new System.Drawing.Point(149, 443);
+            this.talentActionBox15.Name = "talentActionBox15";
+            this.talentActionBox15.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox15.TabIndex = 109;
+            this.talentActionBox15.TextChanged += new System.EventHandler(this.talentActionBox15_TextChanged);
             // 
             // talentNameBox15
             // 
@@ -1873,6 +1886,7 @@
             this.talentNameBox15.Name = "talentNameBox15";
             this.talentNameBox15.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox15.TabIndex = 108;
+            this.talentNameBox15.TextChanged += new System.EventHandler(this.talentNameBox15_TextChanged);
             // 
             // textBox92
             // 
@@ -1902,19 +1916,20 @@
             this.textBox95.Size = new System.Drawing.Size(100, 20);
             this.textBox95.TabIndex = 104;
             // 
-            // textBox96
+            // talentStrainBox14
             // 
-            this.textBox96.Location = new System.Drawing.Point(255, 417);
-            this.textBox96.Name = "textBox96";
-            this.textBox96.Size = new System.Drawing.Size(100, 20);
-            this.textBox96.TabIndex = 103;
+            this.talentStrainBox14.Location = new System.Drawing.Point(255, 417);
+            this.talentStrainBox14.Name = "talentStrainBox14";
+            this.talentStrainBox14.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox14.TabIndex = 103;
             // 
-            // textBox97
+            // talentActionBox14
             // 
-            this.textBox97.Location = new System.Drawing.Point(149, 417);
-            this.textBox97.Name = "textBox97";
-            this.textBox97.Size = new System.Drawing.Size(100, 20);
-            this.textBox97.TabIndex = 102;
+            this.talentActionBox14.Location = new System.Drawing.Point(149, 417);
+            this.talentActionBox14.Name = "talentActionBox14";
+            this.talentActionBox14.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox14.TabIndex = 102;
+            this.talentActionBox14.TextChanged += new System.EventHandler(this.talentActionBox14_TextChanged);
             // 
             // talentNameBox14
             // 
@@ -1922,6 +1937,7 @@
             this.talentNameBox14.Name = "talentNameBox14";
             this.talentNameBox14.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox14.TabIndex = 101;
+            this.talentNameBox14.TextChanged += new System.EventHandler(this.talentNameBox14_TextChanged);
             // 
             // textBox85
             // 
@@ -1951,19 +1967,20 @@
             this.textBox88.Size = new System.Drawing.Size(100, 20);
             this.textBox88.TabIndex = 97;
             // 
-            // textBox89
+            // talentStrainBox13
             // 
-            this.textBox89.Location = new System.Drawing.Point(255, 391);
-            this.textBox89.Name = "textBox89";
-            this.textBox89.Size = new System.Drawing.Size(100, 20);
-            this.textBox89.TabIndex = 96;
+            this.talentStrainBox13.Location = new System.Drawing.Point(255, 391);
+            this.talentStrainBox13.Name = "talentStrainBox13";
+            this.talentStrainBox13.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox13.TabIndex = 96;
             // 
-            // textBox90
+            // talentActionBox13
             // 
-            this.textBox90.Location = new System.Drawing.Point(149, 391);
-            this.textBox90.Name = "textBox90";
-            this.textBox90.Size = new System.Drawing.Size(100, 20);
-            this.textBox90.TabIndex = 95;
+            this.talentActionBox13.Location = new System.Drawing.Point(149, 391);
+            this.talentActionBox13.Name = "talentActionBox13";
+            this.talentActionBox13.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox13.TabIndex = 95;
+            this.talentActionBox13.TextChanged += new System.EventHandler(this.talentActionBox13_TextChanged);
             // 
             // talentNameBox13
             // 
@@ -1971,6 +1988,7 @@
             this.talentNameBox13.Name = "talentNameBox13";
             this.talentNameBox13.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox13.TabIndex = 94;
+            this.talentNameBox13.TextChanged += new System.EventHandler(this.talentNameBox13_TextChanged);
             // 
             // textBox78
             // 
@@ -2000,19 +2018,20 @@
             this.textBox81.Size = new System.Drawing.Size(100, 20);
             this.textBox81.TabIndex = 90;
             // 
-            // textBox82
+            // talentStrainBox12
             // 
-            this.textBox82.Location = new System.Drawing.Point(255, 365);
-            this.textBox82.Name = "textBox82";
-            this.textBox82.Size = new System.Drawing.Size(100, 20);
-            this.textBox82.TabIndex = 89;
+            this.talentStrainBox12.Location = new System.Drawing.Point(255, 365);
+            this.talentStrainBox12.Name = "talentStrainBox12";
+            this.talentStrainBox12.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox12.TabIndex = 89;
             // 
-            // textBox83
+            // talentActionBox12
             // 
-            this.textBox83.Location = new System.Drawing.Point(149, 365);
-            this.textBox83.Name = "textBox83";
-            this.textBox83.Size = new System.Drawing.Size(100, 20);
-            this.textBox83.TabIndex = 88;
+            this.talentActionBox12.Location = new System.Drawing.Point(149, 365);
+            this.talentActionBox12.Name = "talentActionBox12";
+            this.talentActionBox12.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox12.TabIndex = 88;
+            this.talentActionBox12.TextChanged += new System.EventHandler(this.talentActionBox12_TextChanged);
             // 
             // talentNameBox12
             // 
@@ -2020,6 +2039,7 @@
             this.talentNameBox12.Name = "talentNameBox12";
             this.talentNameBox12.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox12.TabIndex = 87;
+            this.talentNameBox12.TextChanged += new System.EventHandler(this.talentNameBox12_TextChanged);
             // 
             // textBox71
             // 
@@ -2049,19 +2069,20 @@
             this.textBox74.Size = new System.Drawing.Size(100, 20);
             this.textBox74.TabIndex = 83;
             // 
-            // textBox75
+            // talentStrainBox11
             // 
-            this.textBox75.Location = new System.Drawing.Point(255, 339);
-            this.textBox75.Name = "textBox75";
-            this.textBox75.Size = new System.Drawing.Size(100, 20);
-            this.textBox75.TabIndex = 82;
+            this.talentStrainBox11.Location = new System.Drawing.Point(255, 339);
+            this.talentStrainBox11.Name = "talentStrainBox11";
+            this.talentStrainBox11.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox11.TabIndex = 82;
             // 
-            // textBox76
+            // talentActionBox11
             // 
-            this.textBox76.Location = new System.Drawing.Point(149, 339);
-            this.textBox76.Name = "textBox76";
-            this.textBox76.Size = new System.Drawing.Size(100, 20);
-            this.textBox76.TabIndex = 81;
+            this.talentActionBox11.Location = new System.Drawing.Point(149, 339);
+            this.talentActionBox11.Name = "talentActionBox11";
+            this.talentActionBox11.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox11.TabIndex = 81;
+            this.talentActionBox11.TextChanged += new System.EventHandler(this.talentActionBox11_TextChanged);
             // 
             // talentNameBox11
             // 
@@ -2069,6 +2090,7 @@
             this.talentNameBox11.Name = "talentNameBox11";
             this.talentNameBox11.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox11.TabIndex = 80;
+            this.talentNameBox11.TextChanged += new System.EventHandler(this.talentNameBox11_TextChanged);
             // 
             // textBox64
             // 
@@ -2098,19 +2120,20 @@
             this.textBox67.Size = new System.Drawing.Size(100, 20);
             this.textBox67.TabIndex = 76;
             // 
-            // textBox68
+            // talentStrainBox10
             // 
-            this.textBox68.Location = new System.Drawing.Point(255, 313);
-            this.textBox68.Name = "textBox68";
-            this.textBox68.Size = new System.Drawing.Size(100, 20);
-            this.textBox68.TabIndex = 75;
+            this.talentStrainBox10.Location = new System.Drawing.Point(255, 313);
+            this.talentStrainBox10.Name = "talentStrainBox10";
+            this.talentStrainBox10.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox10.TabIndex = 75;
             // 
-            // textBox69
+            // talentActionBox10
             // 
-            this.textBox69.Location = new System.Drawing.Point(149, 313);
-            this.textBox69.Name = "textBox69";
-            this.textBox69.Size = new System.Drawing.Size(100, 20);
-            this.textBox69.TabIndex = 74;
+            this.talentActionBox10.Location = new System.Drawing.Point(149, 313);
+            this.talentActionBox10.Name = "talentActionBox10";
+            this.talentActionBox10.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox10.TabIndex = 74;
+            this.talentActionBox10.TextChanged += new System.EventHandler(this.talentActionBox10_TextChanged);
             // 
             // talentNameBox10
             // 
@@ -2118,6 +2141,7 @@
             this.talentNameBox10.Name = "talentNameBox10";
             this.talentNameBox10.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox10.TabIndex = 73;
+            this.talentNameBox10.TextChanged += new System.EventHandler(this.talentNameBox10_TextChanged);
             // 
             // textBox57
             // 
@@ -2147,19 +2171,20 @@
             this.textBox60.Size = new System.Drawing.Size(100, 20);
             this.textBox60.TabIndex = 69;
             // 
-            // textBox61
+            // talentStrainBox09
             // 
-            this.textBox61.Location = new System.Drawing.Point(255, 287);
-            this.textBox61.Name = "textBox61";
-            this.textBox61.Size = new System.Drawing.Size(100, 20);
-            this.textBox61.TabIndex = 68;
+            this.talentStrainBox09.Location = new System.Drawing.Point(255, 287);
+            this.talentStrainBox09.Name = "talentStrainBox09";
+            this.talentStrainBox09.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox09.TabIndex = 68;
             // 
-            // textBox62
+            // talentActionBox09
             // 
-            this.textBox62.Location = new System.Drawing.Point(149, 287);
-            this.textBox62.Name = "textBox62";
-            this.textBox62.Size = new System.Drawing.Size(100, 20);
-            this.textBox62.TabIndex = 67;
+            this.talentActionBox09.Location = new System.Drawing.Point(149, 287);
+            this.talentActionBox09.Name = "talentActionBox09";
+            this.talentActionBox09.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox09.TabIndex = 67;
+            this.talentActionBox09.TextChanged += new System.EventHandler(this.talentActionBox09_TextChanged);
             // 
             // talentNameBox09
             // 
@@ -2167,6 +2192,7 @@
             this.talentNameBox09.Name = "talentNameBox09";
             this.talentNameBox09.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox09.TabIndex = 66;
+            this.talentNameBox09.TextChanged += new System.EventHandler(this.talentNameBox09_TextChanged);
             // 
             // textBox50
             // 
@@ -2196,19 +2222,20 @@
             this.textBox53.Size = new System.Drawing.Size(100, 20);
             this.textBox53.TabIndex = 62;
             // 
-            // textBox54
+            // talentStrainBox08
             // 
-            this.textBox54.Location = new System.Drawing.Point(255, 261);
-            this.textBox54.Name = "textBox54";
-            this.textBox54.Size = new System.Drawing.Size(100, 20);
-            this.textBox54.TabIndex = 61;
+            this.talentStrainBox08.Location = new System.Drawing.Point(255, 261);
+            this.talentStrainBox08.Name = "talentStrainBox08";
+            this.talentStrainBox08.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox08.TabIndex = 61;
             // 
-            // textBox55
+            // talentActionBox08
             // 
-            this.textBox55.Location = new System.Drawing.Point(149, 261);
-            this.textBox55.Name = "textBox55";
-            this.textBox55.Size = new System.Drawing.Size(100, 20);
-            this.textBox55.TabIndex = 60;
+            this.talentActionBox08.Location = new System.Drawing.Point(149, 261);
+            this.talentActionBox08.Name = "talentActionBox08";
+            this.talentActionBox08.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox08.TabIndex = 60;
+            this.talentActionBox08.TextChanged += new System.EventHandler(this.talentActionBox08_TextChanged);
             // 
             // talentNameBox08
             // 
@@ -2216,6 +2243,7 @@
             this.talentNameBox08.Name = "talentNameBox08";
             this.talentNameBox08.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox08.TabIndex = 59;
+            this.talentNameBox08.TextChanged += new System.EventHandler(this.talentNameBox08_TextChanged);
             // 
             // textBox43
             // 
@@ -2245,19 +2273,20 @@
             this.textBox46.Size = new System.Drawing.Size(100, 20);
             this.textBox46.TabIndex = 55;
             // 
-            // textBox47
+            // talentStrainBox07
             // 
-            this.textBox47.Location = new System.Drawing.Point(255, 235);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(100, 20);
-            this.textBox47.TabIndex = 54;
+            this.talentStrainBox07.Location = new System.Drawing.Point(255, 235);
+            this.talentStrainBox07.Name = "talentStrainBox07";
+            this.talentStrainBox07.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox07.TabIndex = 54;
             // 
-            // textBox48
+            // talentActionBox07
             // 
-            this.textBox48.Location = new System.Drawing.Point(149, 235);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(100, 20);
-            this.textBox48.TabIndex = 53;
+            this.talentActionBox07.Location = new System.Drawing.Point(149, 235);
+            this.talentActionBox07.Name = "talentActionBox07";
+            this.talentActionBox07.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox07.TabIndex = 53;
+            this.talentActionBox07.TextChanged += new System.EventHandler(this.talentActionBox07_TextChanged);
             // 
             // talentNameBox07
             // 
@@ -2265,6 +2294,7 @@
             this.talentNameBox07.Name = "talentNameBox07";
             this.talentNameBox07.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox07.TabIndex = 52;
+            this.talentNameBox07.TextChanged += new System.EventHandler(this.talentNameBox07_TextChanged);
             // 
             // textBox36
             // 
@@ -2294,19 +2324,20 @@
             this.textBox39.Size = new System.Drawing.Size(100, 20);
             this.textBox39.TabIndex = 48;
             // 
-            // textBox40
+            // talentStrainBox06
             // 
-            this.textBox40.Location = new System.Drawing.Point(255, 209);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(100, 20);
-            this.textBox40.TabIndex = 47;
+            this.talentStrainBox06.Location = new System.Drawing.Point(255, 209);
+            this.talentStrainBox06.Name = "talentStrainBox06";
+            this.talentStrainBox06.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox06.TabIndex = 47;
             // 
-            // textBox41
+            // talentActionBox06
             // 
-            this.textBox41.Location = new System.Drawing.Point(149, 209);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(100, 20);
-            this.textBox41.TabIndex = 46;
+            this.talentActionBox06.Location = new System.Drawing.Point(149, 209);
+            this.talentActionBox06.Name = "talentActionBox06";
+            this.talentActionBox06.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox06.TabIndex = 46;
+            this.talentActionBox06.TextChanged += new System.EventHandler(this.talentActionBox06_TextChanged);
             // 
             // talentNameBox06
             // 
@@ -2343,19 +2374,20 @@
             this.textBox32.Size = new System.Drawing.Size(100, 20);
             this.textBox32.TabIndex = 41;
             // 
-            // textBox33
+            // talentStrainBox05
             // 
-            this.textBox33.Location = new System.Drawing.Point(255, 183);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(100, 20);
-            this.textBox33.TabIndex = 40;
+            this.talentStrainBox05.Location = new System.Drawing.Point(255, 183);
+            this.talentStrainBox05.Name = "talentStrainBox05";
+            this.talentStrainBox05.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox05.TabIndex = 40;
             // 
-            // textBox34
+            // talentActionBox05
             // 
-            this.textBox34.Location = new System.Drawing.Point(149, 183);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(100, 20);
-            this.textBox34.TabIndex = 39;
+            this.talentActionBox05.Location = new System.Drawing.Point(149, 183);
+            this.talentActionBox05.Name = "talentActionBox05";
+            this.talentActionBox05.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox05.TabIndex = 39;
+            this.talentActionBox05.TextChanged += new System.EventHandler(this.talentActionBox05_TextChanged);
             // 
             // talentNameBox05
             // 
@@ -2363,6 +2395,7 @@
             this.talentNameBox05.Name = "talentNameBox05";
             this.talentNameBox05.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox05.TabIndex = 38;
+            this.talentNameBox05.TextChanged += new System.EventHandler(this.talentNameBox05_TextChanged);
             // 
             // textBox22
             // 
@@ -2392,19 +2425,20 @@
             this.textBox25.Size = new System.Drawing.Size(100, 20);
             this.textBox25.TabIndex = 34;
             // 
-            // textBox26
+            // talentStrainBox04
             // 
-            this.textBox26.Location = new System.Drawing.Point(255, 157);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(100, 20);
-            this.textBox26.TabIndex = 33;
+            this.talentStrainBox04.Location = new System.Drawing.Point(255, 157);
+            this.talentStrainBox04.Name = "talentStrainBox04";
+            this.talentStrainBox04.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox04.TabIndex = 33;
             // 
-            // textBox27
+            // talentActionBox04
             // 
-            this.textBox27.Location = new System.Drawing.Point(149, 157);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(100, 20);
-            this.textBox27.TabIndex = 32;
+            this.talentActionBox04.Location = new System.Drawing.Point(149, 157);
+            this.talentActionBox04.Name = "talentActionBox04";
+            this.talentActionBox04.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox04.TabIndex = 32;
+            this.talentActionBox04.TextChanged += new System.EventHandler(this.talentActionBox04_TextChanged);
             // 
             // talentNameBox04
             // 
@@ -2412,6 +2446,7 @@
             this.talentNameBox04.Name = "talentNameBox04";
             this.talentNameBox04.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox04.TabIndex = 31;
+            this.talentNameBox04.TextChanged += new System.EventHandler(this.talentNameBox04_TextChanged);
             // 
             // textBox15
             // 
@@ -2441,19 +2476,20 @@
             this.textBox18.Size = new System.Drawing.Size(100, 20);
             this.textBox18.TabIndex = 27;
             // 
-            // textBox19
+            // talentStrainBox03
             // 
-            this.textBox19.Location = new System.Drawing.Point(255, 131);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(100, 20);
-            this.textBox19.TabIndex = 26;
+            this.talentStrainBox03.Location = new System.Drawing.Point(255, 131);
+            this.talentStrainBox03.Name = "talentStrainBox03";
+            this.talentStrainBox03.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox03.TabIndex = 26;
             // 
-            // textBox20
+            // talentActionBox03
             // 
-            this.textBox20.Location = new System.Drawing.Point(149, 131);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(100, 20);
-            this.textBox20.TabIndex = 25;
+            this.talentActionBox03.Location = new System.Drawing.Point(149, 131);
+            this.talentActionBox03.Name = "talentActionBox03";
+            this.talentActionBox03.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox03.TabIndex = 25;
+            this.talentActionBox03.TextChanged += new System.EventHandler(this.talentActionBox03_TextChanged);
             // 
             // talentNameBox03
             // 
@@ -2461,6 +2497,7 @@
             this.talentNameBox03.Name = "talentNameBox03";
             this.talentNameBox03.Size = new System.Drawing.Size(100, 20);
             this.talentNameBox03.TabIndex = 24;
+            this.talentNameBox03.TextChanged += new System.EventHandler(this.talentNameBox03_TextChanged);
             // 
             // textBox8
             // 
@@ -2490,19 +2527,20 @@
             this.textBox11.Size = new System.Drawing.Size(100, 20);
             this.textBox11.TabIndex = 20;
             // 
-            // textBox12
+            // talentStrainBox02
             // 
-            this.textBox12.Location = new System.Drawing.Point(255, 105);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 20);
-            this.textBox12.TabIndex = 19;
+            this.talentStrainBox02.Location = new System.Drawing.Point(255, 105);
+            this.talentStrainBox02.Name = "talentStrainBox02";
+            this.talentStrainBox02.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox02.TabIndex = 19;
             // 
-            // textBox13
+            // talentActionBox02
             // 
-            this.textBox13.Location = new System.Drawing.Point(149, 105);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 20);
-            this.textBox13.TabIndex = 18;
+            this.talentActionBox02.Location = new System.Drawing.Point(149, 105);
+            this.talentActionBox02.Name = "talentActionBox02";
+            this.talentActionBox02.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox02.TabIndex = 18;
+            this.talentActionBox02.TextChanged += new System.EventHandler(this.talentActionBox02_TextChanged);
             // 
             // talentNameBox02
             // 
@@ -2540,19 +2578,20 @@
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 13;
             // 
-            // textBox3
+            // talentStrainBox01
             // 
-            this.textBox3.Location = new System.Drawing.Point(255, 79);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 12;
+            this.talentStrainBox01.Location = new System.Drawing.Point(255, 79);
+            this.talentStrainBox01.Name = "talentStrainBox01";
+            this.talentStrainBox01.Size = new System.Drawing.Size(100, 20);
+            this.talentStrainBox01.TabIndex = 12;
             // 
-            // textBox2
+            // talentActionBox01
             // 
-            this.textBox2.Location = new System.Drawing.Point(149, 79);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 11;
+            this.talentActionBox01.Location = new System.Drawing.Point(149, 79);
+            this.talentActionBox01.Name = "talentActionBox01";
+            this.talentActionBox01.Size = new System.Drawing.Size(100, 20);
+            this.talentActionBox01.TabIndex = 11;
+            this.talentActionBox01.TextChanged += new System.EventHandler(this.talentActionBox01_TextChanged);
             // 
             // talentNameBox01
             // 
@@ -2639,7 +2678,7 @@
             // 
             this.numOfTalentsBox.Location = new System.Drawing.Point(121, 13);
             this.numOfTalentsBox.Name = "numOfTalentsBox";
-            this.numOfTalentsBox.Size = new System.Drawing.Size(100, 20);
+            this.numOfTalentsBox.Size = new System.Drawing.Size(43, 20);
             this.numOfTalentsBox.TabIndex = 1;
             this.numOfTalentsBox.TextChanged += new System.EventHandler(this.numOfTalentsBox_TextChanged);
             // 
@@ -2656,7 +2695,7 @@
             // 
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(830, 846);
+            this.tabPage3.Size = new System.Drawing.Size(830, 918);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Skills";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -2665,44 +2704,153 @@
             // 
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(830, 846);
+            this.tabPage4.Size = new System.Drawing.Size(830, 918);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Equipment";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.miscNoteBox);
+            this.tabPage5.Controls.Add(this.label82);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(830, 846);
+            this.tabPage5.Size = new System.Drawing.Size(830, 918);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "Misc. Notes.";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // miscNoteBox
+            // 
+            this.miscNoteBox.Location = new System.Drawing.Point(3, 25);
+            this.miscNoteBox.Multiline = true;
+            this.miscNoteBox.Name = "miscNoteBox";
+            this.miscNoteBox.Size = new System.Drawing.Size(824, 890);
+            this.miscNoteBox.TabIndex = 1;
+            this.miscNoteBox.TextChanged += new System.EventHandler(this.miscNoteBox_TextChanged);
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Location = new System.Drawing.Point(310, 9);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(63, 13);
+            this.label82.TabIndex = 0;
+            this.label82.Text = "Misc. Notes";
+            // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.label81);
+            this.tabPage6.Controls.Add(this.paragrahNumberBox);
+            this.tabPage6.Controls.Add(this.label80);
+            this.tabPage6.Controls.Add(this.charHistoryBox);
+            this.tabPage6.Controls.Add(this.label79);
+            this.tabPage6.Controls.Add(this.charPersonalityBox);
+            this.tabPage6.Controls.Add(this.label78);
+            this.tabPage6.Controls.Add(this.charAppearanceBox);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(830, 846);
+            this.tabPage6.Size = new System.Drawing.Size(830, 918);
             this.tabPage6.TabIndex = 0;
-            this.tabPage6.Text = "Character Background";
+            this.tabPage6.Text = "Character BIO";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Location = new System.Drawing.Point(30, 193);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(113, 13);
+            this.label81.TabIndex = 7;
+            this.label81.Text = "Number of Paragraphs";
+            // 
+            // paragrahNumberBox
+            // 
+            this.paragrahNumberBox.Location = new System.Drawing.Point(149, 190);
+            this.paragrahNumberBox.Name = "paragrahNumberBox";
+            this.paragrahNumberBox.ReadOnly = true;
+            this.paragrahNumberBox.Size = new System.Drawing.Size(35, 20);
+            this.paragrahNumberBox.TabIndex = 6;
+            this.paragrahNumberBox.TextChanged += new System.EventHandler(this.paragrahNumberBox_TextChanged);
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.Location = new System.Drawing.Point(331, 185);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(135, 17);
+            this.label80.TabIndex = 5;
+            this.label80.Text = "Character History";
+            // 
+            // charHistoryBox
+            // 
+            this.charHistoryBox.Location = new System.Drawing.Point(33, 212);
+            this.charHistoryBox.Multiline = true;
+            this.charHistoryBox.Name = "charHistoryBox";
+            this.charHistoryBox.Size = new System.Drawing.Size(766, 703);
+            this.charHistoryBox.TabIndex = 4;
+            this.charHistoryBox.Text = "Enter Character History Information here.  Pressing Enter creates a NEW PARAGRAPH" +
+                ".";
+            this.charHistoryBox.TextChanged += new System.EventHandler(this.charHistoryBox_TextChanged);
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label79.Location = new System.Drawing.Point(361, 97);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(89, 17);
+            this.label79.TabIndex = 3;
+            this.label79.Text = "Personality";
+            // 
+            // charPersonalityBox
+            // 
+            this.charPersonalityBox.Location = new System.Drawing.Point(32, 117);
+            this.charPersonalityBox.Multiline = true;
+            this.charPersonalityBox.Name = "charPersonalityBox";
+            this.charPersonalityBox.Size = new System.Drawing.Size(766, 65);
+            this.charPersonalityBox.TabIndex = 2;
+            this.charPersonalityBox.Text = "Enter Character Personality Information here.  Enter it in one line or the genera" +
+                "ted table will look odd";
+            this.charPersonalityBox.TextChanged += new System.EventHandler(this.charPersonalityBox_TextChanged);
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label78.Location = new System.Drawing.Point(306, 0);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(160, 17);
+            this.label78.TabIndex = 1;
+            this.label78.Text = "Physical Appearance";
+            // 
+            // charAppearanceBox
+            // 
+            this.charAppearanceBox.Location = new System.Drawing.Point(32, 20);
+            this.charAppearanceBox.Multiline = true;
+            this.charAppearanceBox.Name = "charAppearanceBox";
+            this.charAppearanceBox.Size = new System.Drawing.Size(766, 74);
+            this.charAppearanceBox.TabIndex = 0;
+            this.charAppearanceBox.Text = "Enter Character Appearance Information here.  Enter it in one line or the generat" +
+                "ed table will look odd";
+            this.charAppearanceBox.TextChanged += new System.EventHandler(this.charAppearanceBox_TextChanged);
             // 
             // label77
             // 
             this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(227, 16);
+            this.label77.Location = new System.Drawing.Point(176, 16);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(281, 13);
+            this.label77.Size = new System.Drawing.Size(199, 13);
             this.label77.TabIndex = 115;
-            this.label77.Text = "<-- Enter the total number of talents entered in this section.";
+            this.label77.Text = "<--  Enter the total number of talents here";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(857, 877);
+            this.ClientSize = new System.Drawing.Size(857, 960);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -2711,6 +2859,10 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2876,106 +3028,106 @@
         private System.Windows.Forms.TextBox textBox100;
         private System.Windows.Forms.TextBox textBox101;
         private System.Windows.Forms.TextBox textBox102;
-        private System.Windows.Forms.TextBox textBox103;
-        private System.Windows.Forms.TextBox textBox104;
+        private System.Windows.Forms.TextBox talentStrainBox15;
+        private System.Windows.Forms.TextBox talentActionBox15;
         private System.Windows.Forms.TextBox talentNameBox15;
         private System.Windows.Forms.TextBox textBox92;
         private System.Windows.Forms.TextBox textBox93;
         private System.Windows.Forms.TextBox textBox94;
         private System.Windows.Forms.TextBox textBox95;
-        private System.Windows.Forms.TextBox textBox96;
-        private System.Windows.Forms.TextBox textBox97;
+        private System.Windows.Forms.TextBox talentStrainBox14;
+        private System.Windows.Forms.TextBox talentActionBox14;
         private System.Windows.Forms.TextBox talentNameBox14;
         private System.Windows.Forms.TextBox textBox85;
         private System.Windows.Forms.TextBox textBox86;
         private System.Windows.Forms.TextBox textBox87;
         private System.Windows.Forms.TextBox textBox88;
-        private System.Windows.Forms.TextBox textBox89;
-        private System.Windows.Forms.TextBox textBox90;
+        private System.Windows.Forms.TextBox talentStrainBox13;
+        private System.Windows.Forms.TextBox talentActionBox13;
         private System.Windows.Forms.TextBox talentNameBox13;
         private System.Windows.Forms.TextBox textBox78;
         private System.Windows.Forms.TextBox textBox79;
         private System.Windows.Forms.TextBox textBox80;
         private System.Windows.Forms.TextBox textBox81;
-        private System.Windows.Forms.TextBox textBox82;
-        private System.Windows.Forms.TextBox textBox83;
+        private System.Windows.Forms.TextBox talentStrainBox12;
+        private System.Windows.Forms.TextBox talentActionBox12;
         private System.Windows.Forms.TextBox talentNameBox12;
         private System.Windows.Forms.TextBox textBox71;
         private System.Windows.Forms.TextBox textBox72;
         private System.Windows.Forms.TextBox textBox73;
         private System.Windows.Forms.TextBox textBox74;
-        private System.Windows.Forms.TextBox textBox75;
-        private System.Windows.Forms.TextBox textBox76;
+        private System.Windows.Forms.TextBox talentStrainBox11;
+        private System.Windows.Forms.TextBox talentActionBox11;
         private System.Windows.Forms.TextBox talentNameBox11;
         private System.Windows.Forms.TextBox textBox64;
         private System.Windows.Forms.TextBox textBox65;
         private System.Windows.Forms.TextBox textBox66;
         private System.Windows.Forms.TextBox textBox67;
-        private System.Windows.Forms.TextBox textBox68;
-        private System.Windows.Forms.TextBox textBox69;
+        private System.Windows.Forms.TextBox talentStrainBox10;
+        private System.Windows.Forms.TextBox talentActionBox10;
         private System.Windows.Forms.TextBox talentNameBox10;
         private System.Windows.Forms.TextBox textBox57;
         private System.Windows.Forms.TextBox textBox58;
         private System.Windows.Forms.TextBox textBox59;
         private System.Windows.Forms.TextBox textBox60;
-        private System.Windows.Forms.TextBox textBox61;
-        private System.Windows.Forms.TextBox textBox62;
+        private System.Windows.Forms.TextBox talentStrainBox09;
+        private System.Windows.Forms.TextBox talentActionBox09;
         private System.Windows.Forms.TextBox talentNameBox09;
         private System.Windows.Forms.TextBox textBox50;
         private System.Windows.Forms.TextBox textBox51;
         private System.Windows.Forms.TextBox textBox52;
         private System.Windows.Forms.TextBox textBox53;
-        private System.Windows.Forms.TextBox textBox54;
-        private System.Windows.Forms.TextBox textBox55;
+        private System.Windows.Forms.TextBox talentStrainBox08;
+        private System.Windows.Forms.TextBox talentActionBox08;
         private System.Windows.Forms.TextBox talentNameBox08;
         private System.Windows.Forms.TextBox textBox43;
         private System.Windows.Forms.TextBox textBox44;
         private System.Windows.Forms.TextBox textBox45;
         private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox47;
-        private System.Windows.Forms.TextBox textBox48;
+        private System.Windows.Forms.TextBox talentStrainBox07;
+        private System.Windows.Forms.TextBox talentActionBox07;
         private System.Windows.Forms.TextBox talentNameBox07;
         private System.Windows.Forms.TextBox textBox36;
         private System.Windows.Forms.TextBox textBox37;
         private System.Windows.Forms.TextBox textBox38;
         private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox41;
+        private System.Windows.Forms.TextBox talentStrainBox06;
+        private System.Windows.Forms.TextBox talentActionBox06;
         private System.Windows.Forms.TextBox talentNameBox06;
         private System.Windows.Forms.TextBox textBox29;
         private System.Windows.Forms.TextBox textBox30;
         private System.Windows.Forms.TextBox textBox31;
         private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox talentStrainBox05;
+        private System.Windows.Forms.TextBox talentActionBox05;
         private System.Windows.Forms.TextBox talentNameBox05;
         private System.Windows.Forms.TextBox textBox22;
         private System.Windows.Forms.TextBox textBox23;
         private System.Windows.Forms.TextBox textBox24;
         private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox talentStrainBox04;
+        private System.Windows.Forms.TextBox talentActionBox04;
         private System.Windows.Forms.TextBox talentNameBox04;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox talentStrainBox03;
+        private System.Windows.Forms.TextBox talentActionBox03;
         private System.Windows.Forms.TextBox talentNameBox03;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox talentStrainBox02;
+        private System.Windows.Forms.TextBox talentActionBox02;
         private System.Windows.Forms.TextBox talentNameBox02;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox talentStrainBox01;
+        private System.Windows.Forms.TextBox talentActionBox01;
         private System.Windows.Forms.TextBox talentNameBox01;
         private System.Windows.Forms.Label label76;
         private System.Windows.Forms.Label label75;
@@ -2985,6 +3137,16 @@
         private System.Windows.Forms.Label label71;
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.TextBox charAppearanceBox;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.Label label79;
+        private System.Windows.Forms.TextBox charPersonalityBox;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.TextBox paragrahNumberBox;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.TextBox charHistoryBox;
+        private System.Windows.Forms.TextBox miscNoteBox;
+        private System.Windows.Forms.Label label82;
         private System.Windows.Forms.Label label77;
 
     }
