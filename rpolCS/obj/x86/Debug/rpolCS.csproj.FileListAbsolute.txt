@@ -1,14 +1,8 @@
-c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\obj\x86\Debug\rpolCS.Form1.resources
-c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\obj\x86\Debug\rpolCS.Properties.Resources.resources
-c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\obj\x86\Debug\rpolCS.csproj.GenerateResource.Cache
-c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\bin\Debug\rpolCS.exe
-c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\bin\Debug\rpolCS.pdb
-c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\obj\x86\Debug\rpolCS.exe
-c:\users\ltanh\documents\visual studio 2010\Projects\rpolCS\rpolCS\obj\x86\Debug\rpolCS.pdb
-C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\bin\Debug\rpolCS.exe
-C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\bin\Debug\rpolCS.pdb
-C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.Form1.resources
-C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.Properties.Resources.resources
-C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.csproj.GenerateResource.Cache
-C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.exe
-C:\Users\ltanh\Documents\GitHub\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.pdb
+C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.exe
+C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\bin\Debug\rpolCS.exe
+C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\bin\Debug\rpolCS.pdb
+C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.csprojResolveAssemblyReference.cache
+C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.Form1.resources
+C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.Properties.Resources.resources
+C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.csproj.GenerateResource.Cache
+C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.pdb

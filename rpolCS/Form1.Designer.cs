@@ -344,15 +344,37 @@
             this.charPersonalityBox = new System.Windows.Forms.TextBox();
             this.label78 = new System.Windows.Forms.Label();
             this.charAppearanceBox = new System.Windows.Forms.TextBox();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.label96 = new System.Windows.Forms.Label();
+            this.mentorTextBox = new System.Windows.Forms.TextBox();
+            this.label95 = new System.Windows.Forms.Label();
+            this.enemiesTextBox = new System.Windows.Forms.TextBox();
+            this.label94 = new System.Windows.Forms.Label();
+            this.friendsTextBox = new System.Windows.Forms.TextBox();
+            this.label93 = new System.Windows.Forms.Label();
+            this.familyTextBox = new System.Windows.Forms.TextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.legendPointBox = new System.Windows.Forms.TextBox();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.label97 = new System.Windows.Forms.Label();
+            this.tattooTextBox = new System.Windows.Forms.TextBox();
+            this.label98 = new System.Windows.Forms.Label();
+            this.piercingTextBox = new System.Windows.Forms.TextBox();
+            this.label99 = new System.Windows.Forms.Label();
+            this.goalTextBox = new System.Windows.Forms.TextBox();
+            this.label100 = new System.Windows.Forms.Label();
+            this.lpCurrentBox = new System.Windows.Forms.TextBox();
+            this.lpTotalBox = new System.Windows.Forms.TextBox();
+            this.label101 = new System.Windows.Forms.Label();
+            this.lpStatusBox = new System.Windows.Forms.TextBox();
+            this.label102 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            this.tabPage8.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -364,6 +386,7 @@
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
+            this.tabControl1.Controls.Add(this.tabPage8);
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Location = new System.Drawing.Point(7, 4);
             this.tabControl1.Name = "tabControl1";
@@ -3268,8 +3291,105 @@
     "ed table will look odd";
             this.charAppearanceBox.TextChanged += new System.EventHandler(this.charAppearanceBox_TextChanged);
             // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.label99);
+            this.tabPage8.Controls.Add(this.goalTextBox);
+            this.tabPage8.Controls.Add(this.label98);
+            this.tabPage8.Controls.Add(this.piercingTextBox);
+            this.tabPage8.Controls.Add(this.label97);
+            this.tabPage8.Controls.Add(this.tattooTextBox);
+            this.tabPage8.Controls.Add(this.label96);
+            this.tabPage8.Controls.Add(this.mentorTextBox);
+            this.tabPage8.Controls.Add(this.label95);
+            this.tabPage8.Controls.Add(this.enemiesTextBox);
+            this.tabPage8.Controls.Add(this.label94);
+            this.tabPage8.Controls.Add(this.friendsTextBox);
+            this.tabPage8.Controls.Add(this.label93);
+            this.tabPage8.Controls.Add(this.familyTextBox);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(830, 918);
+            this.tabPage8.TabIndex = 2;
+            this.tabPage8.Text = "Player Notes";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Location = new System.Drawing.Point(90, 311);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(48, 13);
+            this.label96.TabIndex = 7;
+            this.label96.Text = "Mentors:";
+            // 
+            // mentorTextBox
+            // 
+            this.mentorTextBox.Location = new System.Drawing.Point(7, 327);
+            this.mentorTextBox.Multiline = true;
+            this.mentorTextBox.Name = "mentorTextBox";
+            this.mentorTextBox.Size = new System.Drawing.Size(208, 66);
+            this.mentorTextBox.TabIndex = 6;
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Location = new System.Drawing.Point(618, 4);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(50, 13);
+            this.label95.TabIndex = 5;
+            this.label95.Text = "Enemies:";
+            // 
+            // enemiesTextBox
+            // 
+            this.enemiesTextBox.Location = new System.Drawing.Point(543, 27);
+            this.enemiesTextBox.Multiline = true;
+            this.enemiesTextBox.Name = "enemiesTextBox";
+            this.enemiesTextBox.Size = new System.Drawing.Size(198, 261);
+            this.enemiesTextBox.TabIndex = 4;
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(346, 4);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(44, 13);
+            this.label94.TabIndex = 3;
+            this.label94.Text = "Friends:";
+            // 
+            // friendsTextBox
+            // 
+            this.friendsTextBox.Location = new System.Drawing.Point(273, 27);
+            this.friendsTextBox.Multiline = true;
+            this.friendsTextBox.Name = "friendsTextBox";
+            this.friendsTextBox.Size = new System.Drawing.Size(207, 261);
+            this.friendsTextBox.TabIndex = 2;
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Location = new System.Drawing.Point(90, 4);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(39, 13);
+            this.label93.TabIndex = 1;
+            this.label93.Text = "Family:";
+            // 
+            // familyTextBox
+            // 
+            this.familyTextBox.Location = new System.Drawing.Point(7, 27);
+            this.familyTextBox.Multiline = true;
+            this.familyTextBox.Name = "familyTextBox";
+            this.familyTextBox.Size = new System.Drawing.Size(208, 261);
+            this.familyTextBox.TabIndex = 0;
+            // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.lpStatusBox);
+            this.tabPage7.Controls.Add(this.label102);
+            this.tabPage7.Controls.Add(this.lpTotalBox);
+            this.tabPage7.Controls.Add(this.label101);
+            this.tabPage7.Controls.Add(this.lpCurrentBox);
+            this.tabPage7.Controls.Add(this.label100);
             this.tabPage7.Controls.Add(this.legendPointBox);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
@@ -3283,9 +3403,108 @@
             this.legendPointBox.Location = new System.Drawing.Point(0, 0);
             this.legendPointBox.Multiline = true;
             this.legendPointBox.Name = "legendPointBox";
-            this.legendPointBox.Size = new System.Drawing.Size(827, 832);
+            this.legendPointBox.Size = new System.Drawing.Size(827, 859);
             this.legendPointBox.TabIndex = 0;
             this.legendPointBox.TextChanged += new System.EventHandler(this.legendPointBox_TextChanged);
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Location = new System.Drawing.Point(355, 311);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(46, 13);
+            this.label97.TabIndex = 9;
+            this.label97.Text = "Tattoos:";
+            // 
+            // tattooTextBox
+            // 
+            this.tattooTextBox.Location = new System.Drawing.Point(272, 327);
+            this.tattooTextBox.Multiline = true;
+            this.tattooTextBox.Name = "tattooTextBox";
+            this.tattooTextBox.Size = new System.Drawing.Size(208, 66);
+            this.tattooTextBox.TabIndex = 8;
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(616, 311);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(53, 13);
+            this.label98.TabIndex = 11;
+            this.label98.Text = "Piercings:";
+            // 
+            // piercingTextBox
+            // 
+            this.piercingTextBox.Location = new System.Drawing.Point(533, 327);
+            this.piercingTextBox.Multiline = true;
+            this.piercingTextBox.Name = "piercingTextBox";
+            this.piercingTextBox.Size = new System.Drawing.Size(208, 66);
+            this.piercingTextBox.TabIndex = 10;
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Location = new System.Drawing.Point(90, 406);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(43, 13);
+            this.label99.TabIndex = 13;
+            this.label99.Text = "Goal(s):";
+            // 
+            // goalTextBox
+            // 
+            this.goalTextBox.Location = new System.Drawing.Point(7, 422);
+            this.goalTextBox.Multiline = true;
+            this.goalTextBox.Name = "goalTextBox";
+            this.goalTextBox.Size = new System.Drawing.Size(208, 66);
+            this.goalTextBox.TabIndex = 12;
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Location = new System.Drawing.Point(20, 890);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(44, 13);
+            this.label100.TabIndex = 1;
+            this.label100.Text = "Current:";
+            // 
+            // lpCurrentBox
+            // 
+            this.lpCurrentBox.Location = new System.Drawing.Point(70, 890);
+            this.lpCurrentBox.Name = "lpCurrentBox";
+            this.lpCurrentBox.Size = new System.Drawing.Size(100, 20);
+            this.lpCurrentBox.TabIndex = 2;
+            // 
+            // lpTotalBox
+            // 
+            this.lpTotalBox.Location = new System.Drawing.Point(239, 890);
+            this.lpTotalBox.Name = "lpTotalBox";
+            this.lpTotalBox.Size = new System.Drawing.Size(100, 20);
+            this.lpTotalBox.TabIndex = 4;
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Location = new System.Drawing.Point(189, 890);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(34, 13);
+            this.label101.TabIndex = 3;
+            this.label101.Text = "Total:";
+            // 
+            // lpStatusBox
+            // 
+            this.lpStatusBox.Location = new System.Drawing.Point(459, 890);
+            this.lpStatusBox.Name = "lpStatusBox";
+            this.lpStatusBox.Size = new System.Drawing.Size(100, 20);
+            this.lpStatusBox.TabIndex = 6;
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Location = new System.Drawing.Point(360, 890);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(93, 13);
+            this.label102.TabIndex = 5;
+            this.label102.Text = "Legendary Status:";
             // 
             // Form1
             // 
@@ -3305,6 +3524,8 @@
             this.tabPage5.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             this.ResumeLayout(false);
@@ -3633,6 +3854,27 @@
         private System.Windows.Forms.Label label92;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TextBox legendPointBox;
+        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.TextBox mentorTextBox;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.TextBox enemiesTextBox;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.TextBox friendsTextBox;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.TextBox familyTextBox;
+        private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.TextBox piercingTextBox;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.TextBox tattooTextBox;
+        private System.Windows.Forms.Label label99;
+        private System.Windows.Forms.TextBox goalTextBox;
+        private System.Windows.Forms.TextBox lpStatusBox;
+        private System.Windows.Forms.Label label102;
+        private System.Windows.Forms.TextBox lpTotalBox;
+        private System.Windows.Forms.Label label101;
+        private System.Windows.Forms.TextBox lpCurrentBox;
+        private System.Windows.Forms.Label label100;
 
     }
 }
