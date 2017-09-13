@@ -45,8 +45,8 @@ namespace rpolCS
                actionType14, strainYN14, attName14, rankNum14, talStepNum14, talADnum14,
                actionType15, strainYN15, attName15, rankNum15, talStepNum15, talADnum15;
         string charAppearanceText, charPersonalityText;
-        string[] charHistoryText, miscNotesText;
-        int numOfTalents_i, paragraphNumNum, i_charHistoryText, miscNotesNum;
+        string[] charHistoryText, miscNotesText, legendPointsText;
+        int numOfTalents_i, paragraphNumNum, i_charHistoryText, miscNotesNum, legendPointsNum;
 
 
         public Form1()
@@ -135,8 +135,156 @@ namespace rpolCS
             #endregion
             #region // Talent Tab
             ptwriter.WriteLine(numOfTalents_i);
-            ptwriter.WriteLine(talentName01);
-            ptwriter.WriteLine(talentName02);
+            if (numOfTalents_i >= 1)
+            {
+                ptwriter.WriteLine(talentName01);
+                ptwriter.WriteLine(actionType01);
+                ptwriter.WriteLine(strainYN01);
+                ptwriter.WriteLine(attName01);
+                ptwriter.WriteLine(rankNum01);
+                ptwriter.WriteLine(talStepNum01);
+                ptwriter.WriteLine(talADnum01);
+            }
+            if (numOfTalents_i >= 2)
+            {
+                ptwriter.WriteLine(talentName02);
+                ptwriter.WriteLine(actionType02);
+                ptwriter.WriteLine(strainYN02);
+                ptwriter.WriteLine(attName02);
+                ptwriter.WriteLine(rankNum02);
+                ptwriter.WriteLine(talStepNum02);
+                ptwriter.WriteLine(talADnum02);
+            }
+            if (numOfTalents_i >= 3)
+            {
+                ptwriter.WriteLine(talentName03);
+                ptwriter.WriteLine(actionType03);
+                ptwriter.WriteLine(strainYN03);
+                ptwriter.WriteLine(attName03);
+                ptwriter.WriteLine(rankNum03);
+                ptwriter.WriteLine(talStepNum03);
+                ptwriter.WriteLine(talADnum03);
+            }
+            if (numOfTalents_i >= 4)
+            {
+                ptwriter.WriteLine(talentName04);
+                ptwriter.WriteLine(actionType04);
+                ptwriter.WriteLine(strainYN04);
+                ptwriter.WriteLine(attName04);
+                ptwriter.WriteLine(rankNum04);
+                ptwriter.WriteLine(talStepNum04);
+                ptwriter.WriteLine(talADnum04);
+            }
+            if (numOfTalents_i >= 5)
+            {
+                ptwriter.WriteLine(talentName05);
+                ptwriter.WriteLine(actionType05);
+                ptwriter.WriteLine(strainYN05);
+                ptwriter.WriteLine(attName05);
+                ptwriter.WriteLine(rankNum05);
+                ptwriter.WriteLine(talStepNum05);
+                ptwriter.WriteLine(talADnum05);
+            }
+            if (numOfTalents_i >= 6)
+            {
+                ptwriter.WriteLine(talentName06);
+                ptwriter.WriteLine(actionType06);
+                ptwriter.WriteLine(strainYN06);
+                ptwriter.WriteLine(attName06);
+                ptwriter.WriteLine(rankNum06);
+                ptwriter.WriteLine(talStepNum06);
+                ptwriter.WriteLine(talADnum06);
+            }
+            if (numOfTalents_i >= 7)
+            {
+                ptwriter.WriteLine(talentName07);
+                ptwriter.WriteLine(actionType07);
+                ptwriter.WriteLine(strainYN07);
+                ptwriter.WriteLine(attName07);
+                ptwriter.WriteLine(rankNum07);
+                ptwriter.WriteLine(talStepNum07);
+                ptwriter.WriteLine(talADnum07);
+            }
+            if (numOfTalents_i >= 8)
+            {
+                ptwriter.WriteLine(talentName08);
+                ptwriter.WriteLine(actionType08);
+                ptwriter.WriteLine(strainYN08);
+                ptwriter.WriteLine(attName08);
+                ptwriter.WriteLine(rankNum08);
+                ptwriter.WriteLine(talStepNum08);
+                ptwriter.WriteLine(talADnum08);
+            }
+            if (numOfTalents_i >= 9)
+            {
+                ptwriter.WriteLine(talentName09);
+                ptwriter.WriteLine(actionType09);
+                ptwriter.WriteLine(strainYN09);
+                ptwriter.WriteLine(attName09);
+                ptwriter.WriteLine(rankNum09);
+                ptwriter.WriteLine(talStepNum09);
+                ptwriter.WriteLine(talADnum09);
+            }
+            if (numOfTalents_i >= 10)
+            {
+                ptwriter.WriteLine(talentName10);
+                ptwriter.WriteLine(actionType10);
+                ptwriter.WriteLine(strainYN10);
+                ptwriter.WriteLine(attName10);
+                ptwriter.WriteLine(rankNum10);
+                ptwriter.WriteLine(talStepNum10);
+                ptwriter.WriteLine(talADnum10);
+            }
+            if (numOfTalents_i >= 11)
+            {
+                ptwriter.WriteLine(talentName11);
+                ptwriter.WriteLine(actionType11);
+                ptwriter.WriteLine(strainYN11);
+                ptwriter.WriteLine(attName11);
+                ptwriter.WriteLine(rankNum11);
+                ptwriter.WriteLine(talStepNum11);
+                ptwriter.WriteLine(talADnum11);
+            }
+            if (numOfTalents_i >= 12)
+            {
+                ptwriter.WriteLine(talentName12);
+                ptwriter.WriteLine(actionType12);
+                ptwriter.WriteLine(strainYN12);
+                ptwriter.WriteLine(attName12);
+                ptwriter.WriteLine(rankNum12);
+                ptwriter.WriteLine(talStepNum12);
+                ptwriter.WriteLine(talADnum12);
+            }
+            if (numOfTalents_i >= 13)
+            {
+                ptwriter.WriteLine(talentName13);
+                ptwriter.WriteLine(actionType13);
+                ptwriter.WriteLine(strainYN13);
+                ptwriter.WriteLine(attName13);
+                ptwriter.WriteLine(rankNum13);
+                ptwriter.WriteLine(talStepNum13);
+                ptwriter.WriteLine(talADnum13);
+            }
+            if (numOfTalents_i >= 14)
+            {
+                ptwriter.WriteLine(talentName14);
+                ptwriter.WriteLine(actionType14);
+                ptwriter.WriteLine(strainYN14);
+                ptwriter.WriteLine(attName14);
+                ptwriter.WriteLine(rankNum14);
+                ptwriter.WriteLine(talStepNum14);
+                ptwriter.WriteLine(talADnum14);
+            }
+            if (numOfTalents_i >= 15)
+            {
+                ptwriter.WriteLine(talentName15);
+                ptwriter.WriteLine(actionType15);
+                ptwriter.WriteLine(strainYN15);
+                ptwriter.WriteLine(attName15);
+                ptwriter.WriteLine(rankNum15);
+                ptwriter.WriteLine(talStepNum15);
+                ptwriter.WriteLine(talADnum15);
+            }
             #endregion
             #region // Misc Notes Tab
             ptwriter.WriteLine(miscNotesNum);
@@ -152,6 +300,15 @@ namespace rpolCS
             for (int j = 0; j < paragraphNumNum; j++)
             {
                 ptwriter.WriteLine(charHistoryText[j]);
+            }
+            #endregion
+            #region // Legend Points Tab
+            ptwriter.WriteLine(charAppearanceText);
+            ptwriter.WriteLine(charPersonalityText);
+            ptwriter.WriteLine(legendPointsNum);
+            for (int j = 0; j < legendPointsNum; j++)
+            {
+                ptwriter.WriteLine(legendPointsText[j]);
             }
             #endregion
             ptwriter.Close();
@@ -244,8 +401,156 @@ namespace rpolCS
                     #endregion
                     #region // Talent Tab
                     numOfTalents_i = Convert.ToInt32(numOfTalentsBox.Text = ptReader.ReadLine());
-                    talentNameBox01.Text = talentName01 = ptReader.ReadLine();
-                    talentNameBox02.Text = talentName02 = ptReader.ReadLine();
+                    if (numOfTalents_i >= 1)
+                    {
+                        talentName01 = talentNameBox01.Text = ptReader.ReadLine();
+                        actionType01 = talentActBox01.Text = ptReader.ReadLine();
+                        strainYN01 = talentStrainBox01.Text = ptReader.ReadLine();
+                        attName01 = talentAttBox01.Text = ptReader.ReadLine();
+                        rankNum01 = talentRankBox01.Text = ptReader.ReadLine();
+                        talStepNum01 = talentStrainBox01.Text = ptReader.ReadLine();
+                        talADnum01 = talentActBox01.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 2)
+                    {
+                        talentName02 = talentNameBox02.Text = ptReader.ReadLine();
+                        actionType02 = talentActBox02.Text = ptReader.ReadLine();
+                        strainYN02 = talentStrainBox02.Text = ptReader.ReadLine();
+                        attName02 = talentAttBox02.Text = ptReader.ReadLine();
+                        rankNum02 = talentRankBox02.Text = ptReader.ReadLine();
+                        talStepNum02 = talentStrainBox02.Text = ptReader.ReadLine();
+                        talADnum02 = talentActBox02.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 3)
+                    {
+                        talentName03 = talentNameBox03.Text = ptReader.ReadLine();
+                        actionType03 = talentActBox03.Text = ptReader.ReadLine();
+                        strainYN03 = talentStrainBox03.Text = ptReader.ReadLine();
+                        attName03 = talentAttBox03.Text = ptReader.ReadLine();
+                        rankNum03 = talentRankBox03.Text = ptReader.ReadLine();
+                        talStepNum03 = talentStrainBox03.Text = ptReader.ReadLine();
+                        talADnum03 = talentActBox03.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 4)
+                    {
+                        talentName04 = talentNameBox04.Text = ptReader.ReadLine();
+                        actionType04 = talentActBox04.Text = ptReader.ReadLine();
+                        strainYN04 = talentStrainBox04.Text = ptReader.ReadLine();
+                        attName04 = talentAttBox04.Text = ptReader.ReadLine();
+                        rankNum04 = talentRankBox04.Text = ptReader.ReadLine();
+                        talStepNum04 = talentStrainBox04.Text = ptReader.ReadLine();
+                        talADnum04 = talentActBox04.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 5)
+                    {
+                        talentName05 = talentNameBox05.Text = ptReader.ReadLine();
+                        actionType05 = talentActBox05.Text = ptReader.ReadLine();
+                        strainYN05 = talentStrainBox05.Text = ptReader.ReadLine();
+                        attName05 = talentAttBox05.Text = ptReader.ReadLine();
+                        rankNum05 = talentRankBox05.Text = ptReader.ReadLine();
+                        talStepNum05 = talentStrainBox05.Text = ptReader.ReadLine();
+                        talADnum05 = talentActBox05.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 6)
+                    {
+                        talentName06 = talentNameBox06.Text = ptReader.ReadLine();
+                        actionType06 = talentActBox06.Text = ptReader.ReadLine();
+                        strainYN06 = talentStrainBox06.Text = ptReader.ReadLine();
+                        attName06 = talentAttBox06.Text = ptReader.ReadLine();
+                        rankNum06 = talentRankBox06.Text = ptReader.ReadLine();
+                        talStepNum06 = talentStrainBox06.Text = ptReader.ReadLine();
+                        talADnum06 = talentActBox06.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 7)
+                    {
+                        talentName07 = talentNameBox07.Text = ptReader.ReadLine();
+                        actionType07 = talentActBox07.Text = ptReader.ReadLine();
+                        strainYN07 = talentStrainBox07.Text = ptReader.ReadLine();
+                        attName07 = talentAttBox07.Text = ptReader.ReadLine();
+                        rankNum07 = talentRankBox07.Text = ptReader.ReadLine();
+                        talStepNum07 = talentStrainBox07.Text = ptReader.ReadLine();
+                        talADnum07 = talentActBox07.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 8)
+                    {
+                        talentName08 = talentNameBox08.Text = ptReader.ReadLine();
+                        actionType08 = talentActBox08.Text = ptReader.ReadLine();
+                        strainYN08 = talentStrainBox08.Text = ptReader.ReadLine();
+                        attName08 = talentAttBox08.Text = ptReader.ReadLine();
+                        rankNum08 = talentRankBox08.Text = ptReader.ReadLine();
+                        talStepNum08 = talentStrainBox08.Text = ptReader.ReadLine();
+                        talADnum08 = talentActBox08.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 9)
+                    {
+                        talentName09 = talentNameBox09.Text = ptReader.ReadLine();
+                        actionType09 = talentActBox09.Text = ptReader.ReadLine();
+                        strainYN09 = talentStrainBox09.Text = ptReader.ReadLine();
+                        attName09 = talentAttBox09.Text = ptReader.ReadLine();
+                        rankNum09 = talentRankBox09.Text = ptReader.ReadLine();
+                        talStepNum09 = talentStrainBox09.Text = ptReader.ReadLine();
+                        talADnum09 = talentActBox09.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 10)
+                    {
+                        talentName10 = talentNameBox10.Text = ptReader.ReadLine();
+                        actionType10 = talentActBox10.Text = ptReader.ReadLine();
+                        strainYN10 = talentStrainBox10.Text = ptReader.ReadLine();
+                        attName10 = talentAttBox10.Text = ptReader.ReadLine();
+                        rankNum10 = talentRankBox10.Text = ptReader.ReadLine();
+                        talStepNum10 = talentStrainBox10.Text = ptReader.ReadLine();
+                        talADnum10 = talentActBox10.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 11)
+                    {
+                        talentName11 = talentNameBox11.Text = ptReader.ReadLine();
+                        actionType11 = talentActBox11.Text = ptReader.ReadLine();
+                        strainYN11 = talentStrainBox11.Text = ptReader.ReadLine();
+                        attName11 = talentAttBox11.Text = ptReader.ReadLine();
+                        rankNum11 = talentRankBox11.Text = ptReader.ReadLine();
+                        talStepNum11 = talentStrainBox11.Text = ptReader.ReadLine();
+                        talADnum11 = talentActBox11.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 12)
+                    {
+                        talentName12 = talentNameBox12.Text = ptReader.ReadLine();
+                        actionType12 = talentActBox12.Text = ptReader.ReadLine();
+                        strainYN12 = talentStrainBox12.Text = ptReader.ReadLine();
+                        attName12 = talentAttBox12.Text = ptReader.ReadLine();
+                        rankNum12 = talentRankBox12.Text = ptReader.ReadLine();
+                        talStepNum12 = talentStrainBox12.Text = ptReader.ReadLine();
+                        talADnum12 = talentActBox12.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 13)
+                    {
+                        talentName13 = talentNameBox13.Text = ptReader.ReadLine();
+                        actionType13 = talentActBox13.Text = ptReader.ReadLine();
+                        strainYN13 = talentStrainBox13.Text = ptReader.ReadLine();
+                        attName13 = talentAttBox13.Text = ptReader.ReadLine();
+                        rankNum13 = talentRankBox13.Text = ptReader.ReadLine();
+                        talStepNum13 = talentStrainBox13.Text = ptReader.ReadLine();
+                        talADnum13 = talentActBox13.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 14)
+                    {
+                        talentName14 = talentNameBox14.Text = ptReader.ReadLine();
+                        actionType14 = talentActBox14.Text = ptReader.ReadLine();
+                        strainYN14 = talentStrainBox14.Text = ptReader.ReadLine();
+                        attName14 = talentAttBox14.Text = ptReader.ReadLine();
+                        rankNum14 = talentRankBox14.Text = ptReader.ReadLine();
+                        talStepNum14 = talentStrainBox14.Text = ptReader.ReadLine();
+                        talADnum14 = talentActBox14.Text = ptReader.ReadLine();
+                    }
+                    if (numOfTalents_i >= 15)
+                    {
+                        talentName15 = talentNameBox15.Text = ptReader.ReadLine();
+                        actionType15 = talentActBox15.Text = ptReader.ReadLine();
+                        strainYN15 = talentStrainBox15.Text = ptReader.ReadLine();
+                        attName15 = talentAttBox15.Text = ptReader.ReadLine();
+                        rankNum15 = talentRankBox15.Text = ptReader.ReadLine();
+                        talStepNum15 = talentStrainBox15.Text = ptReader.ReadLine();
+                        talADnum15 = talentActBox15.Text = ptReader.ReadLine();
+                    }
                     #endregion
                     #region // Misc Notes Tab
                     miscNotesTemp = ptReader.ReadLine();
@@ -372,19 +677,16 @@ namespace rpolCS
                 writer.WriteLine("|8 |");
             }
             #endregion
-            #region // Character Bio
-            writer.WriteLine("|8< <b>Physical Appearance:</b> " + charAppearanceText +" |");
+
+            #region // Legend Points Tab
             writer.WriteLine("|8 |");
-            writer.WriteLine("|8< <b>Personality:</b> " + charPersonalityText + "  |");
-            writer.WriteLine("|8 |");
-            writer.WriteLine("|8< <b>Character History:</b> |");
-            writer.Write("|1." + paragraphNumNum + " ");
-            while (historyCount < paragraphNumNum)
+            writer.WriteLine("|8^! Legend Points |");
+            for (int i = 0; i < legendPointsNum; i++)
             {
-                writer.WriteLine("|7< " + charHistoryText[historyCount] + " |");
-                historyCount++;
+                writer.WriteLine("|8< " + legendPointsText[i] + " |");
             }
             #endregion
+
             writer.Close();
             // Saving the sheet in plaintext to make entry faster, ie not having to redo all of the typing each time.
             savePlainText();
@@ -990,6 +1292,245 @@ namespace rpolCS
             actionType15 = talentActionBox15.Text;
         }
 
-        
+        private void talentStrainBox01_TextChanged(object sender, EventArgs e)
+        {
+            strainYN01 = talentStrainBox01.Text;
+        }
+
+        private void talentStrainBox02_TextChanged(object sender, EventArgs e)
+        {
+            strainYN02 = talentStrainBox02.Text;
+        }
+
+        private void talentStrainBox03_TextChanged(object sender, EventArgs e)
+        {
+            strainYN03 = talentStrainBox03.Text;
+        }
+
+        private void talentStrainBox04_TextChanged(object sender, EventArgs e)
+        {
+            strainYN04 = talentStrainBox04.Text;
+        }
+
+        private void talentStrainBox05_TextChanged(object sender, EventArgs e)
+        {
+            strainYN05 = talentStrainBox05.Text;
+        }
+
+        private void talentStrainBox06_TextChanged(object sender, EventArgs e)
+        {
+            strainYN06 = talentStrainBox06.Text;
+        }
+
+        private void talentStrainBox07_TextChanged(object sender, EventArgs e)
+        {
+            strainYN07 = talentStrainBox07.Text;
+        }
+
+        private void talentStrainBox08_TextChanged(object sender, EventArgs e)
+        {
+            strainYN08 = talentStrainBox08.Text;
+        }
+
+        private void talentStrainBox09_TextChanged(object sender, EventArgs e)
+        {
+            strainYN09 = talentStrainBox09.Text;
+        }
+
+        private void talentStrainBox10_TextChanged(object sender, EventArgs e)
+        {
+            strainYN10 = talentStrainBox10.Text;
+        }
+
+        private void talentStrainBox11_TextChanged(object sender, EventArgs e)
+        {
+            strainYN11 = talentStrainBox11.Text;
+        }
+
+        private void talentStrainBox12_TextChanged(object sender, EventArgs e)
+        {
+            strainYN12 = talentStrainBox12.Text;
+        }
+
+        private void talentStrainBox13_TextChanged(object sender, EventArgs e)
+        {
+            strainYN13 = talentStrainBox13.Text;
+        }
+
+        private void talentStrainBox14_TextChanged(object sender, EventArgs e)
+        {
+            strainYN14 = talentStrainBox14.Text;
+        }
+
+        private void talentStrainBox15_TextChanged(object sender, EventArgs e)
+        {
+            strainYN15 = talentStrainBox15.Text;
+        }
+
+        private void talentAttBox01_TextChanged(object sender, EventArgs e)
+        {
+            attName01 = talentActionBox01.Text;
+        }
+
+        private void talentAttBox02_TextChanged(object sender, EventArgs e)
+        {
+            attName02 = talentActionBox02.Text;
+        }
+
+        private void talentAttBox03_TextChanged(object sender, EventArgs e)
+        {
+            attName03 = talentActionBox03.Text;
+        }
+
+        private void talentAttBox04_TextChanged(object sender, EventArgs e)
+        {
+            attName04 = talentActionBox04.Text;
+        }
+
+        private void talentAttBox05_TextChanged(object sender, EventArgs e)
+        {
+            attName05 = talentActionBox05.Text;
+        }
+
+        private void talentAttBox06_TextChanged(object sender, EventArgs e)
+        {
+            attName06 = talentActionBox06.Text;
+        }
+
+        private void talentAttBox07_TextChanged(object sender, EventArgs e)
+        {
+            attName07 = talentActionBox07.Text;
+        }
+
+        private void talentAttBox08_TextChanged(object sender, EventArgs e)
+        {
+            attName08 = talentActionBox08.Text;
+        }
+
+        private void talentAttBox09_TextChanged(object sender, EventArgs e)
+        {
+            attName09 = talentActionBox09.Text;
+        }
+
+        private void talentAttBox10_TextChanged(object sender, EventArgs e)
+        {
+            attName10 = talentActionBox10.Text;
+        }
+
+        private void talentAttBox11_TextChanged(object sender, EventArgs e)
+        {
+            attName11 = talentActionBox11.Text;
+        }
+
+        private void talentAttBox12_TextChanged(object sender, EventArgs e)
+        {
+            attName12 = talentActionBox12.Text;
+        }
+
+        private void talentAttBox13_TextChanged(object sender, EventArgs e)
+        {
+            attName13 = talentActionBox13.Text;
+        }
+
+        private void talentAttBox14_TextChanged(object sender, EventArgs e)
+        {
+            attName14 = talentActionBox14.Text;
+        }
+
+        private void talentAttBox15_TextChanged(object sender, EventArgs e)
+        {
+            attName15 = talentActionBox15.Text;
+        }
+
+        private void talentRankBox01_TextChanged(object sender, EventArgs e)
+        {
+            rankNum01 = talentRankBox01.Text;
+        }
+
+        private void talentRankBox02_TextChanged(object sender, EventArgs e)
+        {
+            rankNum02 = talentRankBox02.Text;
+        }
+
+        private void talentRankBox03_TextChanged(object sender, EventArgs e)
+        {
+            rankNum03 = talentRankBox03.Text;
+        }
+
+        private void talentRankBox04_TextChanged(object sender, EventArgs e)
+        {
+            rankNum04 = talentRankBox04.Text;
+        }
+
+        private void talentRankBox05_TextChanged(object sender, EventArgs e)
+        {
+            rankNum05 = talentRankBox05.Text;
+        }
+
+        private void talentRankBox06_TextChanged(object sender, EventArgs e)
+        {
+            rankNum06 = talentRankBox06.Text;
+        }
+
+        private void talentRankBox07_TextChanged(object sender, EventArgs e)
+        {
+            rankNum07 = talentRankBox07.Text;
+        }
+
+        private void talentRankBox08_TextChanged(object sender, EventArgs e)
+        {
+            rankNum08 = talentRankBox08.Text;
+        }
+
+        private void talentRankBox09_TextChanged(object sender, EventArgs e)
+        {
+            rankNum09 = talentRankBox09.Text;
+        }
+
+        private void talentRankBox10_TextChanged(object sender, EventArgs e)
+        {
+            rankNum10 = talentRankBox10.Text;
+        }
+
+        private void talentRankBox11_TextChanged(object sender, EventArgs e)
+        {
+            rankNum11 = talentRankBox11.Text;
+        }
+
+        private void talentRankBox12_TextChanged(object sender, EventArgs e)
+        {
+            rankNum12 = talentRankBox12.Text;
+        }
+
+        private void talentRankBox13_TextChanged(object sender, EventArgs e)
+        {
+            rankNum13 = talentRankBox13.Text;
+        }
+
+        private void talentRankBox14_TextChanged(object sender, EventArgs e)
+        {
+            rankNum14 = talentRankBox14.Text;
+        }
+
+        private void talentRankBox15_TextChanged(object sender, EventArgs e)
+        {
+            rankNum15 = talentRankBox15.Text;
+        }
+
+        private void talentStepBox01_TextChanged(object sender, EventArgs e)
+        {
+            talStepNum01 = talentStepBox01.Text;
+        }
+
+        private void talentStepBox02_TextChanged(object sender, EventArgs e)
+        {
+            talStepNum02 = talentStepBox02.Text;
+        }
+
+        private void legendPointBox_TextChanged(object sender, EventArgs e)
+        {
+            legendPointsText = legendPointBox.Text.Split(new string[] { "\r\n", "\n" }, StringSplitOptions.None);
+            legendPointsNum = legendPointsText.Length;
+        }
     }
 }
