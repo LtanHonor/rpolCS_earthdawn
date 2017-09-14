@@ -46,7 +46,9 @@ namespace rpolCS
                actionType15, strainYN15, attName15, rankNum15, talStepNum15, talADnum15;
         string charAppearanceText, charPersonalityText, legendPointsNumText;
         string[] charHistoryText, miscNotesText, legendPointsText;
-        int numOfTalents_i, paragraphNumNum, i_charHistoryText, miscNotesNum, legendPointsNum;
+        string currentLPText, totalLPText, legendaryStatusText;
+        int numOfTalents_i, paragraphNumNum, i_charHistoryText, miscNotesNum, currentLPNum, 
+            legendPointsNum, totalLPNum, legendaryStatusNum;
 
 
         public Form1()
@@ -308,6 +310,9 @@ namespace rpolCS
             #endregion
             #region // Legend Points Tab
             ptwriter.WriteLine("<LegendPoints>");
+            ptwriter.WriteLine(currentLPText);
+            ptwriter.WriteLine(totalLPText);
+            ptwriter.WriteLine(legendaryStatusText);
             ptwriter.WriteLine(legendPointsNum);
             for (int j = 0; j < legendPointsNum; j++)
             {
@@ -598,6 +603,9 @@ namespace rpolCS
                         #region // Legend Points Tab
                         if (lineIn.Contains("<LegendPoints>"))
                         {
+                            currentLPText = lpCurrentBox.Text = ptReader.ReadLine();
+                            totalLPText = lpTotalBox.Text = ptReader.ReadLine();
+                            legendaryStatusText = lpStatusBox.Text = ptReader.ReadLine();
                             legendPointsNumText = ptReader.ReadLine();
                             legendPointsNum = Convert.ToInt32(legendPointsNumText);
                             legendPointsText = new string[legendPointsNum];
@@ -1573,5 +1581,10 @@ namespace rpolCS
             legendPointsNum = legendPointsText.Length;
         }
         #endregion
+
+        private void lpCurrentBox_TextChanged(object sender, EventArgs e)
+        {
+            currentLPText = lpCurrentBox.Text;
+        }
     }
 }

@@ -6,3 +6,11 @@ C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS
 C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.Properties.Resources.resources
 C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.csproj.GenerateResource.Cache
 C:\Users\jamartin\Documents\GitTest\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.pdb
+C:\Users\JAMartin\Documents\git\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.exe
+C:\Users\JAMartin\Documents\git\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.pdb
+C:\Users\JAMartin\Documents\git\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.csprojResolveAssemblyReference.cache
+C:\Users\JAMartin\Documents\git\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.Form1.resources
+C:\Users\JAMartin\Documents\git\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.Properties.Resources.resources
+C:\Users\JAMartin\Documents\git\rpolCS_earthdawn\rpolCS\obj\x86\Debug\rpolCS.csproj.GenerateResource.Cache
+C:\Users\JAMartin\Documents\git\rpolCS_earthdawn\rpolCS\bin\Debug\rpolCS.exe
+C:\Users\JAMartin\Documents\git\rpolCS_earthdawn\rpolCS\bin\Debug\rpolCS.pdb

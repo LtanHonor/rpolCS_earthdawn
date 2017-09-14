@@ -345,6 +345,12 @@
             this.label78 = new System.Windows.Forms.Label();
             this.charAppearanceBox = new System.Windows.Forms.TextBox();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.label99 = new System.Windows.Forms.Label();
+            this.goalTextBox = new System.Windows.Forms.TextBox();
+            this.label98 = new System.Windows.Forms.Label();
+            this.piercingTextBox = new System.Windows.Forms.TextBox();
+            this.label97 = new System.Windows.Forms.Label();
+            this.tattooTextBox = new System.Windows.Forms.TextBox();
             this.label96 = new System.Windows.Forms.Label();
             this.mentorTextBox = new System.Windows.Forms.TextBox();
             this.label95 = new System.Windows.Forms.Label();
@@ -354,21 +360,15 @@
             this.label93 = new System.Windows.Forms.Label();
             this.familyTextBox = new System.Windows.Forms.TextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.lpStatusBox = new System.Windows.Forms.TextBox();
+            this.label102 = new System.Windows.Forms.Label();
+            this.lpTotalBox = new System.Windows.Forms.TextBox();
+            this.label101 = new System.Windows.Forms.Label();
+            this.lpCurrentBox = new System.Windows.Forms.TextBox();
+            this.label100 = new System.Windows.Forms.Label();
             this.legendPointBox = new System.Windows.Forms.TextBox();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.label97 = new System.Windows.Forms.Label();
-            this.tattooTextBox = new System.Windows.Forms.TextBox();
-            this.label98 = new System.Windows.Forms.Label();
-            this.piercingTextBox = new System.Windows.Forms.TextBox();
-            this.label99 = new System.Windows.Forms.Label();
-            this.goalTextBox = new System.Windows.Forms.TextBox();
-            this.label100 = new System.Windows.Forms.Label();
-            this.lpCurrentBox = new System.Windows.Forms.TextBox();
-            this.lpTotalBox = new System.Windows.Forms.TextBox();
-            this.label101 = new System.Windows.Forms.Label();
-            this.lpStatusBox = new System.Windows.Forms.TextBox();
-            this.label102 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -3314,6 +3314,57 @@
             this.tabPage8.Text = "Player Notes";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Location = new System.Drawing.Point(90, 406);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(43, 13);
+            this.label99.TabIndex = 13;
+            this.label99.Text = "Goal(s):";
+            // 
+            // goalTextBox
+            // 
+            this.goalTextBox.Location = new System.Drawing.Point(7, 422);
+            this.goalTextBox.Multiline = true;
+            this.goalTextBox.Name = "goalTextBox";
+            this.goalTextBox.Size = new System.Drawing.Size(208, 66);
+            this.goalTextBox.TabIndex = 12;
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(616, 311);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(53, 13);
+            this.label98.TabIndex = 11;
+            this.label98.Text = "Piercings:";
+            // 
+            // piercingTextBox
+            // 
+            this.piercingTextBox.Location = new System.Drawing.Point(533, 327);
+            this.piercingTextBox.Multiline = true;
+            this.piercingTextBox.Name = "piercingTextBox";
+            this.piercingTextBox.Size = new System.Drawing.Size(208, 66);
+            this.piercingTextBox.TabIndex = 10;
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Location = new System.Drawing.Point(355, 311);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(46, 13);
+            this.label97.TabIndex = 9;
+            this.label97.Text = "Tattoos:";
+            // 
+            // tattooTextBox
+            // 
+            this.tattooTextBox.Location = new System.Drawing.Point(272, 327);
+            this.tattooTextBox.Multiline = true;
+            this.tattooTextBox.Name = "tattooTextBox";
+            this.tattooTextBox.Size = new System.Drawing.Size(208, 66);
+            this.tattooTextBox.TabIndex = 8;
+            // 
             // label96
             // 
             this.label96.AutoSize = true;
@@ -3398,101 +3449,9 @@
             this.tabPage7.Text = "Legend Points";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // legendPointBox
-            // 
-            this.legendPointBox.Location = new System.Drawing.Point(0, 0);
-            this.legendPointBox.Multiline = true;
-            this.legendPointBox.Name = "legendPointBox";
-            this.legendPointBox.Size = new System.Drawing.Size(827, 859);
-            this.legendPointBox.TabIndex = 0;
-            this.legendPointBox.TextChanged += new System.EventHandler(this.legendPointBox_TextChanged);
-            // 
-            // label97
-            // 
-            this.label97.AutoSize = true;
-            this.label97.Location = new System.Drawing.Point(355, 311);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(46, 13);
-            this.label97.TabIndex = 9;
-            this.label97.Text = "Tattoos:";
-            // 
-            // tattooTextBox
-            // 
-            this.tattooTextBox.Location = new System.Drawing.Point(272, 327);
-            this.tattooTextBox.Multiline = true;
-            this.tattooTextBox.Name = "tattooTextBox";
-            this.tattooTextBox.Size = new System.Drawing.Size(208, 66);
-            this.tattooTextBox.TabIndex = 8;
-            // 
-            // label98
-            // 
-            this.label98.AutoSize = true;
-            this.label98.Location = new System.Drawing.Point(616, 311);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(53, 13);
-            this.label98.TabIndex = 11;
-            this.label98.Text = "Piercings:";
-            // 
-            // piercingTextBox
-            // 
-            this.piercingTextBox.Location = new System.Drawing.Point(533, 327);
-            this.piercingTextBox.Multiline = true;
-            this.piercingTextBox.Name = "piercingTextBox";
-            this.piercingTextBox.Size = new System.Drawing.Size(208, 66);
-            this.piercingTextBox.TabIndex = 10;
-            // 
-            // label99
-            // 
-            this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(90, 406);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(43, 13);
-            this.label99.TabIndex = 13;
-            this.label99.Text = "Goal(s):";
-            // 
-            // goalTextBox
-            // 
-            this.goalTextBox.Location = new System.Drawing.Point(7, 422);
-            this.goalTextBox.Multiline = true;
-            this.goalTextBox.Name = "goalTextBox";
-            this.goalTextBox.Size = new System.Drawing.Size(208, 66);
-            this.goalTextBox.TabIndex = 12;
-            // 
-            // label100
-            // 
-            this.label100.AutoSize = true;
-            this.label100.Location = new System.Drawing.Point(20, 890);
-            this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(44, 13);
-            this.label100.TabIndex = 1;
-            this.label100.Text = "Current:";
-            // 
-            // lpCurrentBox
-            // 
-            this.lpCurrentBox.Location = new System.Drawing.Point(70, 890);
-            this.lpCurrentBox.Name = "lpCurrentBox";
-            this.lpCurrentBox.Size = new System.Drawing.Size(100, 20);
-            this.lpCurrentBox.TabIndex = 2;
-            // 
-            // lpTotalBox
-            // 
-            this.lpTotalBox.Location = new System.Drawing.Point(239, 890);
-            this.lpTotalBox.Name = "lpTotalBox";
-            this.lpTotalBox.Size = new System.Drawing.Size(100, 20);
-            this.lpTotalBox.TabIndex = 4;
-            // 
-            // label101
-            // 
-            this.label101.AutoSize = true;
-            this.label101.Location = new System.Drawing.Point(189, 890);
-            this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(34, 13);
-            this.label101.TabIndex = 3;
-            this.label101.Text = "Total:";
-            // 
             // lpStatusBox
             // 
-            this.lpStatusBox.Location = new System.Drawing.Point(459, 890);
+            this.lpStatusBox.Location = new System.Drawing.Point(567, 69);
             this.lpStatusBox.Name = "lpStatusBox";
             this.lpStatusBox.Size = new System.Drawing.Size(100, 20);
             this.lpStatusBox.TabIndex = 6;
@@ -3500,11 +3459,53 @@
             // label102
             // 
             this.label102.AutoSize = true;
-            this.label102.Location = new System.Drawing.Point(360, 890);
+            this.label102.Location = new System.Drawing.Point(468, 69);
             this.label102.Name = "label102";
             this.label102.Size = new System.Drawing.Size(93, 13);
             this.label102.TabIndex = 5;
             this.label102.Text = "Legendary Status:";
+            // 
+            // lpTotalBox
+            // 
+            this.lpTotalBox.Location = new System.Drawing.Point(347, 69);
+            this.lpTotalBox.Name = "lpTotalBox";
+            this.lpTotalBox.Size = new System.Drawing.Size(100, 20);
+            this.lpTotalBox.TabIndex = 4;
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Location = new System.Drawing.Point(297, 69);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(34, 13);
+            this.label101.TabIndex = 3;
+            this.label101.Text = "Total:";
+            // 
+            // lpCurrentBox
+            // 
+            this.lpCurrentBox.Location = new System.Drawing.Point(178, 69);
+            this.lpCurrentBox.Name = "lpCurrentBox";
+            this.lpCurrentBox.Size = new System.Drawing.Size(100, 20);
+            this.lpCurrentBox.TabIndex = 2;
+            this.lpCurrentBox.TextChanged += new System.EventHandler(this.lpCurrentBox_TextChanged);
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Location = new System.Drawing.Point(128, 69);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(44, 13);
+            this.label100.TabIndex = 1;
+            this.label100.Text = "Current:";
+            // 
+            // legendPointBox
+            // 
+            this.legendPointBox.Location = new System.Drawing.Point(0, 95);
+            this.legendPointBox.Multiline = true;
+            this.legendPointBox.Name = "legendPointBox";
+            this.legendPointBox.Size = new System.Drawing.Size(827, 815);
+            this.legendPointBox.TabIndex = 0;
+            this.legendPointBox.TextChanged += new System.EventHandler(this.legendPointBox_TextChanged);
             // 
             // Form1
             // 
